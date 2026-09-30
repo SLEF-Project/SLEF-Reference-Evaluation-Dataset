@@ -2,9 +2,9 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite it using this metadata."
 title: "SLEF Reference Evaluation Dataset"
 type: dataset
-version: "1.0.0"
-date-released: "2026-09-27"
-doi: 10.5281/zenodo.22930176
+version: "1.1.0"
+date-released: "2026-09-30"
+doi: 10.5281/zenodo.23068043
 repository-code: https://github.com/SLEF-Project/SLEF-Reference-Evaluation-Dataset
 url: https://github.com/SLEF-Project/SLEF-Reference-Evaluation-Dataset
 license: CC-BY-4.0
@@ -13,7 +13,7 @@ authors:
     given-names: "Marco"
 references:
   - type: unpublished
-    title: "SLEF: Synthetic Learners Reveal a Shared Diagnostic Blind Spot Across AI Tutoring Systems"
+    title: "Can Assigned Learner States Be Recovered from Synthetic Tutoring Dialogues? A Factorial Study with SLEF"
     authors:
       - family-names: "Iannacone"
         given-names: "Marco"

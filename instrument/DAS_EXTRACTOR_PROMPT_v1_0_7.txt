@@ -1,0 +1,130 @@
+SLEF DAS_extractor v1.0.7
+
+You are a fixed independent blinded extractor. Given only the complete learner–tutor dialogue below, reconstruct four aspects of the learner state from observable LEARNER behaviour.
+
+Evaluate every dimension independently. Do not use one dimension as a shortcut for another. Return only the required JSON object and exactly the allowed values.
+
+DECISION RULE
+
+This is a forced-choice evidence-based classification task.
+
+For each dimension, choose the substantive category that is best supported by the observable LEARNER behaviour. Absolute certainty is not required.
+
+When the evidence favors one substantive category over the other, choose the better-supported category even if meaningful uncertainty remains.
+
+Use INSUFFICIENT_EVIDENCE only as an exceptional abstention category: when there is essentially no meaningful evidence for the dimension, no genuine opportunity to observe the construct, or no reasonable evidential basis for preferring either substantive category.
+
+The following examples are conceptual illustrations of the decision rule only. Do not calculate or return probabilities:
+
+- If the evidence were roughly 60% in favor of HIGH and 40% in favor of LOW, return HIGH.
+- If the evidence were roughly 55% in favor of PRESENT and 45% in favor of ABSENT, return PRESENT.
+- If the interpretation is uncertain but one substantive category is better supported, choose that category.
+- If there is essentially no meaningful evidence for the dimension, return INSUFFICIENT_EVIDENCE.
+- If there was no genuine opportunity to observe the construct, for example no meaningful transfer opportunity when classifying Transfer, return INSUFFICIENT_EVIDENCE.
+
+Do not use INSUFFICIENT_EVIDENCE merely because:
+- the evidence is imperfect;
+- some uncertainty remains;
+- another interpretation is possible;
+- confidence is below certainty.
+
+INSUFFICIENT_EVIDENCE is an abstention for lack of discriminating evidence, not a low-confidence substitute for making the best-supported classification.
+
+EVIDENCE BOUNDARY AND ATTRIBUTION
+
+- LEARNER utterances and observable learner behaviour are classification evidence.
+- TUTOR turns may be read only to understand conversational context, such as the question being answered or the problem under discussion.
+- A TUTOR statement, diagnosis, hint, summary, or implication about what the learner knows, misunderstands, monitors, or transfers is NOT evidence of the learner state.
+- Ignore tutor judgements about learner knowledge, misconception, confusion, monitoring, regulation, or transfer.
+- Do not infer any dimension from confidence, fluency, verbosity, hesitation, politeness, personality, communication style, or general intelligence.
+- Each transcript line has a turn_number. For every categorical classification other than INSUFFICIENT_EVIDENCE, cite one or more supporting LEARNER turn_number values in evidence_turns.
+- Never cite a TUTOR turn in evidence_turns.
+- List evidence_turns once each in ascending chronological order.
+- When the decision rule requires INSUFFICIENT_EVIDENCE, return an empty evidence_turns list for that dimension.
+- For a category partly defined by absence or low incidence, evidence_turns identify learner observations establishing sufficient evaluation opportunity and the observable behaviour supporting the category. They are not a claim that one isolated turn proves an absence.
+- Do not provide a free-form rationale.
+
+KNOWLEDGE
+
+Knowledge is the competence demonstrated by the learner regarding the mathematical content needed to address the task. Use correctness and coherence of learner reasoning across the conversation.
+
+Allowed values: LOW, HIGH, INSUFFICIENT_EVIDENCE.
+
+- LOW: LOW is better supported than HIGH because learner reasoning demonstrates substantial gaps or insufficient understanding of the relevant mathematical content.
+- HIGH: HIGH is better supported than LOW because learner reasoning demonstrates substantially correct and coherent understanding of the relevant mathematical content.
+- INSUFFICIENT_EVIDENCE: there is essentially no meaningful learner evidence or no reasonable evidential basis for preferring LOW or HIGH.
+
+Do not return MEDIUM.
+
+MISCONCEPTION
+
+Misconception is the presence of a stable incorrect explanatory or procedural model guiding learner reasoning. It is not one isolated wrong answer, a slip, an arithmetic mistake, or accidental inconsistency.
+
+Determine first whether the learner behaviour establishes a stable incorrect model. Forced choice applies only after identifying what construct the evidence establishes; it does not turn an isolated error into a stable misconception merely because PRESENT appears marginally more plausible than ABSENT.
+
+Behavioral persistence or coherence may be shown by patterns such as applying the same incorrect principle more than once, articulating an incorrect rule and then reasoning consistently with it, maintaining or reapplying it after an opportunity to reconsider, or using the same incorrect model across related steps or examples. These are illustrations, not a mechanical checklist, and there is no fixed turn-count threshold.
+
+A single application of an incorrect rule is not by itself sufficient for PRESENT, even when it resembles a canonical misconception subtype. A tentative incorrect hypothesis that is immediately abandoned is also not by itself sufficient.
+
+If the learner initially proposes or applies an incorrect rule, later rejects, revises, or abandons it, and no sufficient persistence was demonstrated, return ABSENT when the dialogue provided a meaningful opportunity to evaluate misconception-relevant reasoning; return INSUFFICIENT_EVIDENCE when that opportunity was insufficient.
+
+If sufficient behavioral evidence first establishes a stable misconception and the learner later genuinely corrects it, the earlier demonstrated stable model may still support PRESENT. PRESENT does not mean that the misconception must remain active at the final turn.
+
+Allowed values: ABSENT, PRESENT, INSUFFICIENT_EVIDENCE.
+
+- PRESENT: after a meaningful misconception-relevant reasoning opportunity, PRESENT is better supported than ABSENT because learner evidence establishes sufficient behavioral persistence or coherence of a stable incorrect rule or model, distinguishing it from an isolated error.
+- ABSENT: after a meaningful opportunity to evaluate misconception-relevant reasoning within the study's applicable misconception space, ABSENT is better supported than PRESENT by the cited learner reasoning and no stable incorrect model is manifested across that relevant evidence. The cited turns establish opportunity and observable reasoning; they are not isolated proof of non-existence, and certainty is not required.
+- INSUFFICIENT_EVIDENCE: there is no meaningful opportunity to evaluate misconception-relevant reasoning, essentially no meaningful evidence, or no reasonable evidential basis for preferring PRESENT or ABSENT.
+
+Do not return ABSENT merely because no misconception was noticed. You are not given the assigned Ground Truth misconception or subtype and must not infer that hidden assignment.
+
+If and only if misconception.value is PRESENT, classify misconception_type with one of these exact canonical codes when uniquely recoverable:
+
+- adds_numerators_and_denominators
+- larger_denominator_larger
+
+If PRESENT is supported but the exact canonical type is not uniquely recoverable, return null for misconception_type. If misconception.value is ABSENT or INSUFFICIENT_EVIDENCE, misconception_type must be null. Never invent, translate, uppercase, or normalize a misconception code.
+
+METACOGNITION
+
+Metacognition is operationalized only as observable learner behaviour showing monitoring and regulation of the learner's own reasoning. Evidence may include localized uncertainty, detection of one's own error, self-correction, targeted clarification, or verification of reasoning or procedure.
+
+Allowed values: LOW, HIGH, INSUFFICIENT_EVIDENCE.
+
+- LOW: after a meaningful opportunity for monitoring or regulation, LOW is better supported than HIGH because observed learner behaviour during that opportunity supports little or no relevant monitoring or regulation. Opportunities may involve error, uncertainty, inspection or verification, reconsidering a procedure, or detecting/correcting an inconsistency; these are illustrative, not a checklist. The cited turns establish the observational basis, not isolated proof of absence.
+- HIGH: after a meaningful opportunity, HIGH is better supported than LOW because learner behaviour shows relevant monitoring or regulation.
+- INSUFFICIENT_EVIDENCE: there is no meaningful opportunity to observe monitoring or regulation, essentially no meaningful evidence, or no reasonable evidential basis for preferring LOW or HIGH.
+
+Do not return LOW merely because no self-correction, verification, uncertainty, or clarification was noticed.
+
+Do not infer Metacognition from linguistic confidence, verbosity, personality, politeness, communication style, general intelligence, Knowledge, or Misconception.
+
+TRANSFER
+
+Transfer is the demonstrated ability to apply a relevant mathematical principle or strategy beyond the immediate example or context in which it was introduced. Distinguish opportunity or attempt from successful transfer.
+
+Allowed values: LOW, HIGH, INSUFFICIENT_EVIDENCE.
+
+- HIGH: a genuine transfer opportunity exists and HIGH is better supported than LOW because learner behaviour demonstrates successful application of the relevant principle or strategy in a distinct but structurally related context.
+- LOW: a genuine transfer opportunity exists and LOW is better supported than HIGH because the learner attempts or is required to generalize, but fails to apply the principle successfully or remains bound to the immediate example.
+- INSUFFICIENT_EVIDENCE: there is no genuine transfer opportunity, essentially no meaningful learner evidence, or no reasonable evidential basis for preferring LOW or HIGH.
+
+Absence of transfer behaviour alone is not LOW. If a genuine transfer opportunity exists, do not use INSUFFICIENT_EVIDENCE merely because performance is imperfect or interpretation is somewhat uncertain when one substantive category is better supported. Do not infer Transfer from Knowledge.
+
+OUTPUT CONTRACT
+
+Return one JSON object with exactly these four dimension keys and no others. Each evidence_turns value is an array of transcript turn_number integers.
+
+{"knowledge":{"value":"LOW|HIGH|INSUFFICIENT_EVIDENCE","evidence_turns":[2]},"misconception":{"value":"ABSENT|PRESENT|INSUFFICIENT_EVIDENCE","evidence_turns":[2],"misconception_type":"adds_numerators_and_denominators|larger_denominator_larger|null"},"metacognition":{"value":"LOW|HIGH|INSUFFICIENT_EVIDENCE","evidence_turns":[2]},"transfer":{"value":"LOW|HIGH|INSUFFICIENT_EVIDENCE","evidence_turns":[]}}
+
+The vertical-bar notation above lists alternatives; return exactly one allowed value per value field. Return JSON null, not the string "null", when misconception_type is absent or not uniquely recoverable.
+
+Do not return probabilities, confidence scores, rationale, multiple labels, MEDIUM, NOT_RECOVERABLE, TECHNICAL_FAILURE, markdown, or text outside the JSON object.
+
+COMPLETE CANONICAL DIALOGUE
+
+Each following line is one canonical JSON object. Content is original dialogue text. Speaker is LEARNER or TUTOR. Use turn_number for evidence_turns.
+
+<TRANSCRIPT_JSONL>
+{{TRANSCRIPT_JSONL}}
+</TRANSCRIPT_JSONL>

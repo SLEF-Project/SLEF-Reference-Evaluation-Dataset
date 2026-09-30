@@ -1,0 +1,181 @@
+condition,dimension,core_outcome,channel_outcome,count
+Proxima,knowledge,correct,correct,19
+Proxima,knowledge,correct,incorrect,0
+Proxima,knowledge,correct,IE,0
+Proxima,knowledge,incorrect,correct,6
+Proxima,knowledge,incorrect,incorrect,15
+Proxima,knowledge,incorrect,IE,0
+Proxima,knowledge,IE,correct,0
+Proxima,knowledge,IE,incorrect,0
+Proxima,knowledge,IE,IE,0
+Proxima,misconception,correct,correct,21
+Proxima,misconception,correct,incorrect,4
+Proxima,misconception,correct,IE,0
+Proxima,misconception,incorrect,correct,2
+Proxima,misconception,incorrect,incorrect,12
+Proxima,misconception,incorrect,IE,1
+Proxima,misconception,IE,correct,0
+Proxima,misconception,IE,incorrect,0
+Proxima,misconception,IE,IE,0
+Proxima,metacognition,correct,correct,18
+Proxima,metacognition,correct,incorrect,2
+Proxima,metacognition,correct,IE,3
+Proxima,metacognition,incorrect,correct,2
+Proxima,metacognition,incorrect,incorrect,10
+Proxima,metacognition,incorrect,IE,0
+Proxima,metacognition,IE,correct,1
+Proxima,metacognition,IE,incorrect,3
+Proxima,metacognition,IE,IE,1
+Proxima,transfer,correct,correct,1
+Proxima,transfer,correct,incorrect,0
+Proxima,transfer,correct,IE,1
+Proxima,transfer,incorrect,correct,0
+Proxima,transfer,incorrect,incorrect,0
+Proxima,transfer,incorrect,IE,5
+Proxima,transfer,IE,correct,2
+Proxima,transfer,IE,incorrect,3
+Proxima,transfer,IE,IE,28
+Claude Vanilla,knowledge,correct,correct,20
+Claude Vanilla,knowledge,correct,incorrect,1
+Claude Vanilla,knowledge,correct,IE,1
+Claude Vanilla,knowledge,incorrect,correct,2
+Claude Vanilla,knowledge,incorrect,incorrect,16
+Claude Vanilla,knowledge,incorrect,IE,0
+Claude Vanilla,knowledge,IE,correct,0
+Claude Vanilla,knowledge,IE,incorrect,0
+Claude Vanilla,knowledge,IE,IE,0
+Claude Vanilla,misconception,correct,correct,23
+Claude Vanilla,misconception,correct,incorrect,3
+Claude Vanilla,misconception,correct,IE,0
+Claude Vanilla,misconception,incorrect,correct,0
+Claude Vanilla,misconception,incorrect,incorrect,12
+Claude Vanilla,misconception,incorrect,IE,1
+Claude Vanilla,misconception,IE,correct,0
+Claude Vanilla,misconception,IE,incorrect,1
+Claude Vanilla,misconception,IE,IE,0
+Claude Vanilla,metacognition,correct,correct,10
+Claude Vanilla,metacognition,correct,incorrect,1
+Claude Vanilla,metacognition,correct,IE,3
+Claude Vanilla,metacognition,incorrect,correct,0
+Claude Vanilla,metacognition,incorrect,incorrect,8
+Claude Vanilla,metacognition,incorrect,IE,0
+Claude Vanilla,metacognition,IE,correct,3
+Claude Vanilla,metacognition,IE,incorrect,2
+Claude Vanilla,metacognition,IE,IE,13
+Claude Vanilla,transfer,correct,correct,0
+Claude Vanilla,transfer,correct,incorrect,0
+Claude Vanilla,transfer,correct,IE,0
+Claude Vanilla,transfer,incorrect,correct,0
+Claude Vanilla,transfer,incorrect,incorrect,0
+Claude Vanilla,transfer,incorrect,IE,3
+Claude Vanilla,transfer,IE,correct,4
+Claude Vanilla,transfer,IE,incorrect,3
+Claude Vanilla,transfer,IE,IE,30
+OpenAI,knowledge,correct,correct,22
+OpenAI,knowledge,correct,incorrect,2
+OpenAI,knowledge,correct,IE,0
+OpenAI,knowledge,incorrect,correct,1
+OpenAI,knowledge,incorrect,incorrect,15
+OpenAI,knowledge,incorrect,IE,0
+OpenAI,knowledge,IE,correct,0
+OpenAI,knowledge,IE,incorrect,0
+OpenAI,knowledge,IE,IE,0
+OpenAI,misconception,correct,correct,17
+OpenAI,misconception,correct,incorrect,3
+OpenAI,misconception,correct,IE,3
+OpenAI,misconception,incorrect,correct,0
+OpenAI,misconception,incorrect,incorrect,12
+OpenAI,misconception,incorrect,IE,1
+OpenAI,misconception,IE,correct,0
+OpenAI,misconception,IE,incorrect,3
+OpenAI,misconception,IE,IE,1
+OpenAI,metacognition,correct,correct,11
+OpenAI,metacognition,correct,incorrect,0
+OpenAI,metacognition,correct,IE,2
+OpenAI,metacognition,incorrect,correct,2
+OpenAI,metacognition,incorrect,incorrect,6
+OpenAI,metacognition,incorrect,IE,1
+OpenAI,metacognition,IE,correct,2
+OpenAI,metacognition,IE,incorrect,1
+OpenAI,metacognition,IE,IE,15
+OpenAI,transfer,correct,correct,0
+OpenAI,transfer,correct,incorrect,0
+OpenAI,transfer,correct,IE,0
+OpenAI,transfer,incorrect,correct,0
+OpenAI,transfer,incorrect,incorrect,0
+OpenAI,transfer,incorrect,IE,0
+OpenAI,transfer,IE,correct,0
+OpenAI,transfer,IE,incorrect,1
+OpenAI,transfer,IE,IE,39
+Claude Mainstream,knowledge,correct,correct,20
+Claude Mainstream,knowledge,correct,incorrect,2
+Claude Mainstream,knowledge,correct,IE,0
+Claude Mainstream,knowledge,incorrect,correct,1
+Claude Mainstream,knowledge,incorrect,incorrect,17
+Claude Mainstream,knowledge,incorrect,IE,0
+Claude Mainstream,knowledge,IE,correct,0
+Claude Mainstream,knowledge,IE,incorrect,0
+Claude Mainstream,knowledge,IE,IE,0
+Claude Mainstream,misconception,correct,correct,22
+Claude Mainstream,misconception,correct,incorrect,1
+Claude Mainstream,misconception,correct,IE,1
+Claude Mainstream,misconception,incorrect,correct,4
+Claude Mainstream,misconception,incorrect,incorrect,12
+Claude Mainstream,misconception,incorrect,IE,0
+Claude Mainstream,misconception,IE,correct,0
+Claude Mainstream,misconception,IE,incorrect,0
+Claude Mainstream,misconception,IE,IE,0
+Claude Mainstream,metacognition,correct,correct,17
+Claude Mainstream,metacognition,correct,incorrect,1
+Claude Mainstream,metacognition,correct,IE,3
+Claude Mainstream,metacognition,incorrect,correct,0
+Claude Mainstream,metacognition,incorrect,incorrect,8
+Claude Mainstream,metacognition,incorrect,IE,1
+Claude Mainstream,metacognition,IE,correct,2
+Claude Mainstream,metacognition,IE,incorrect,3
+Claude Mainstream,metacognition,IE,IE,5
+Claude Mainstream,transfer,correct,correct,2
+Claude Mainstream,transfer,correct,incorrect,0
+Claude Mainstream,transfer,correct,IE,8
+Claude Mainstream,transfer,incorrect,correct,0
+Claude Mainstream,transfer,incorrect,incorrect,2
+Claude Mainstream,transfer,incorrect,IE,4
+Claude Mainstream,transfer,IE,correct,3
+Claude Mainstream,transfer,IE,incorrect,4
+Claude Mainstream,transfer,IE,IE,17
+Mistral,knowledge,correct,correct,20
+Mistral,knowledge,correct,incorrect,3
+Mistral,knowledge,correct,IE,0
+Mistral,knowledge,incorrect,correct,3
+Mistral,knowledge,incorrect,incorrect,14
+Mistral,knowledge,incorrect,IE,0
+Mistral,knowledge,IE,correct,0
+Mistral,knowledge,IE,incorrect,0
+Mistral,knowledge,IE,IE,0
+Mistral,misconception,correct,correct,20
+Mistral,misconception,correct,incorrect,3
+Mistral,misconception,correct,IE,1
+Mistral,misconception,incorrect,correct,5
+Mistral,misconception,incorrect,incorrect,11
+Mistral,misconception,incorrect,IE,0
+Mistral,misconception,IE,correct,0
+Mistral,misconception,IE,incorrect,0
+Mistral,misconception,IE,IE,0
+Mistral,metacognition,correct,correct,17
+Mistral,metacognition,correct,incorrect,1
+Mistral,metacognition,correct,IE,2
+Mistral,metacognition,incorrect,correct,2
+Mistral,metacognition,incorrect,incorrect,6
+Mistral,metacognition,incorrect,IE,1
+Mistral,metacognition,IE,correct,2
+Mistral,metacognition,IE,incorrect,6
+Mistral,metacognition,IE,IE,3
+Mistral,transfer,correct,correct,2
+Mistral,transfer,correct,incorrect,0
+Mistral,transfer,correct,IE,4
+Mistral,transfer,incorrect,correct,0
+Mistral,transfer,incorrect,incorrect,7
+Mistral,transfer,incorrect,IE,5
+Mistral,transfer,IE,correct,2
+Mistral,transfer,IE,incorrect,4
+Mistral,transfer,IE,IE,16

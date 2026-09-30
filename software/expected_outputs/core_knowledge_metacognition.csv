@@ -1,0 +1,21 @@
+condition,metacognition_gt,knowledge_gt,n,pred_low,pred_high,ie,correct
+Proxima,LOW,LOW,40,10,30,0,10
+Proxima,LOW,HIGH,40,4,36,0,36
+Proxima,HIGH,LOW,40,1,39,0,1
+Proxima,HIGH,HIGH,40,0,40,0,40
+Claude Vanilla,LOW,LOW,40,11,29,0,11
+Claude Vanilla,LOW,HIGH,40,4,36,0,36
+Claude Vanilla,HIGH,LOW,40,2,38,0,2
+Claude Vanilla,HIGH,HIGH,40,0,40,0,40
+OpenAI,LOW,LOW,40,28,12,0,28
+OpenAI,LOW,HIGH,40,13,27,0,27
+OpenAI,HIGH,LOW,40,6,34,0,6
+OpenAI,HIGH,HIGH,40,6,34,0,34
+Claude Mainstream,LOW,LOW,40,11,29,0,11
+Claude Mainstream,LOW,HIGH,40,5,35,0,35
+Claude Mainstream,HIGH,LOW,40,0,40,0,0
+Claude Mainstream,HIGH,HIGH,40,0,40,0,40
+Mistral,LOW,LOW,40,15,25,0,15
+Mistral,LOW,HIGH,40,4,36,0,36
+Mistral,HIGH,LOW,40,0,40,0,0
+Mistral,HIGH,HIGH,40,0,40,0,40

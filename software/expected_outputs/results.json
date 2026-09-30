@@ -1,0 +1,4660 @@
+{
+  "dimension_summary": [
+    {
+      "condition": "Proxima",
+      "dimension": "knowledge",
+      "n": 220,
+      "correct": 125,
+      "incorrect": 95,
+      "ie": 0,
+      "recovery_pct": 56.81818181818182,
+      "coverage_pct": 100.0,
+      "conditional_agreement_pct": 56.81818181818182
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "misconception",
+      "n": 220,
+      "correct": 137,
+      "incorrect": 81,
+      "ie": 2,
+      "recovery_pct": 62.27272727272727,
+      "coverage_pct": 99.0909090909091,
+      "conditional_agreement_pct": 62.84403669724771
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "metacognition",
+      "n": 220,
+      "correct": 113,
+      "incorrect": 78,
+      "ie": 29,
+      "recovery_pct": 51.36363636363637,
+      "coverage_pct": 86.81818181818181,
+      "conditional_agreement_pct": 59.16230366492147
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "transfer",
+      "n": 220,
+      "correct": 24,
+      "incorrect": 16,
+      "ie": 180,
+      "recovery_pct": 10.909090909090908,
+      "coverage_pct": 18.181818181818183,
+      "conditional_agreement_pct": 60.0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "knowledge",
+      "n": 220,
+      "correct": 125,
+      "incorrect": 94,
+      "ie": 1,
+      "recovery_pct": 56.81818181818182,
+      "coverage_pct": 99.54545454545455,
+      "conditional_agreement_pct": 57.077625570776256
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "misconception",
+      "n": 220,
+      "correct": 129,
+      "incorrect": 87,
+      "ie": 4,
+      "recovery_pct": 58.63636363636363,
+      "coverage_pct": 98.18181818181819,
+      "conditional_agreement_pct": 59.72222222222222
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "metacognition",
+      "n": 220,
+      "correct": 83,
+      "incorrect": 55,
+      "ie": 82,
+      "recovery_pct": 37.72727272727273,
+      "coverage_pct": 62.72727272727273,
+      "conditional_agreement_pct": 60.14492753623188
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "transfer",
+      "n": 220,
+      "correct": 11,
+      "incorrect": 9,
+      "ie": 200,
+      "recovery_pct": 5.0,
+      "coverage_pct": 9.090909090909092,
+      "conditional_agreement_pct": 55.0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "knowledge",
+      "n": 220,
+      "correct": 127,
+      "incorrect": 93,
+      "ie": 0,
+      "recovery_pct": 57.72727272727273,
+      "coverage_pct": 100.0,
+      "conditional_agreement_pct": 57.72727272727273
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "misconception",
+      "n": 220,
+      "correct": 106,
+      "incorrect": 87,
+      "ie": 27,
+      "recovery_pct": 48.18181818181818,
+      "coverage_pct": 87.72727272727273,
+      "conditional_agreement_pct": 54.92227979274612
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "metacognition",
+      "n": 220,
+      "correct": 77,
+      "incorrect": 42,
+      "ie": 101,
+      "recovery_pct": 35.0,
+      "coverage_pct": 54.09090909090909,
+      "conditional_agreement_pct": 64.70588235294117
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "transfer",
+      "n": 220,
+      "correct": 0,
+      "incorrect": 2,
+      "ie": 218,
+      "recovery_pct": 0.0,
+      "coverage_pct": 0.9090909090909091,
+      "conditional_agreement_pct": 0.0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "knowledge",
+      "n": 220,
+      "correct": 119,
+      "incorrect": 101,
+      "ie": 0,
+      "recovery_pct": 54.09090909090909,
+      "coverage_pct": 100.0,
+      "conditional_agreement_pct": 54.09090909090909
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "misconception",
+      "n": 220,
+      "correct": 133,
+      "incorrect": 84,
+      "ie": 3,
+      "recovery_pct": 60.45454545454545,
+      "coverage_pct": 98.63636363636364,
+      "conditional_agreement_pct": 61.29032258064516
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "metacognition",
+      "n": 220,
+      "correct": 108,
+      "incorrect": 70,
+      "ie": 42,
+      "recovery_pct": 49.09090909090909,
+      "coverage_pct": 80.9090909090909,
+      "conditional_agreement_pct": 60.674157303370784
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "transfer",
+      "n": 220,
+      "correct": 43,
+      "incorrect": 33,
+      "ie": 144,
+      "recovery_pct": 19.545454545454547,
+      "coverage_pct": 34.54545454545455,
+      "conditional_agreement_pct": 56.578947368421055
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "knowledge",
+      "n": 220,
+      "correct": 125,
+      "incorrect": 95,
+      "ie": 0,
+      "recovery_pct": 56.81818181818182,
+      "coverage_pct": 100.0,
+      "conditional_agreement_pct": 56.81818181818182
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "misconception",
+      "n": 220,
+      "correct": 138,
+      "incorrect": 80,
+      "ie": 2,
+      "recovery_pct": 62.72727272727273,
+      "coverage_pct": 99.0909090909091,
+      "conditional_agreement_pct": 63.30275229357798
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "metacognition",
+      "n": 220,
+      "correct": 106,
+      "incorrect": 73,
+      "ie": 41,
+      "recovery_pct": 48.18181818181818,
+      "coverage_pct": 81.36363636363636,
+      "conditional_agreement_pct": 59.21787709497207
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "transfer",
+      "n": 220,
+      "correct": 36,
+      "incorrect": 47,
+      "ie": 137,
+      "recovery_pct": 16.363636363636363,
+      "coverage_pct": 37.72727272727273,
+      "conditional_agreement_pct": 43.373493975903614
+    }
+  ],
+  "class_conditional_summary": [
+    {
+      "condition": "Proxima",
+      "dimension": "knowledge",
+      "gt": "HIGH",
+      "n": 110,
+      "correct": 105,
+      "incorrect": 5,
+      "ie": 0,
+      "recovery_pct": 95.45454545454545,
+      "coverage_pct": 100.0,
+      "conditional_agreement_pct": 95.45454545454545
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "knowledge",
+      "gt": "LOW",
+      "n": 110,
+      "correct": 20,
+      "incorrect": 90,
+      "ie": 0,
+      "recovery_pct": 18.181818181818183,
+      "coverage_pct": 100.0,
+      "conditional_agreement_pct": 18.181818181818183
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "misconception",
+      "gt": "ABSENT",
+      "n": 110,
+      "correct": 107,
+      "incorrect": 3,
+      "ie": 0,
+      "recovery_pct": 97.27272727272727,
+      "coverage_pct": 100.0,
+      "conditional_agreement_pct": 97.27272727272727
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "misconception",
+      "gt": "PRESENT",
+      "n": 110,
+      "correct": 30,
+      "incorrect": 78,
+      "ie": 2,
+      "recovery_pct": 27.272727272727273,
+      "coverage_pct": 98.18181818181819,
+      "conditional_agreement_pct": 27.77777777777778
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "metacognition",
+      "gt": "HIGH",
+      "n": 110,
+      "correct": 102,
+      "incorrect": 0,
+      "ie": 8,
+      "recovery_pct": 92.72727272727273,
+      "coverage_pct": 92.72727272727273,
+      "conditional_agreement_pct": 100.0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "metacognition",
+      "gt": "LOW",
+      "n": 110,
+      "correct": 11,
+      "incorrect": 78,
+      "ie": 21,
+      "recovery_pct": 10.0,
+      "coverage_pct": 80.9090909090909,
+      "conditional_agreement_pct": 12.359550561797754
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "transfer",
+      "gt": "HIGH",
+      "n": 110,
+      "correct": 24,
+      "incorrect": 0,
+      "ie": 86,
+      "recovery_pct": 21.818181818181817,
+      "coverage_pct": 21.818181818181817,
+      "conditional_agreement_pct": 100.0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "transfer",
+      "gt": "LOW",
+      "n": 110,
+      "correct": 0,
+      "incorrect": 16,
+      "ie": 94,
+      "recovery_pct": 0.0,
+      "coverage_pct": 14.545454545454545,
+      "conditional_agreement_pct": 0.0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "knowledge",
+      "gt": "HIGH",
+      "n": 110,
+      "correct": 103,
+      "incorrect": 6,
+      "ie": 1,
+      "recovery_pct": 93.63636363636364,
+      "coverage_pct": 99.0909090909091,
+      "conditional_agreement_pct": 94.4954128440367
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "knowledge",
+      "gt": "LOW",
+      "n": 110,
+      "correct": 22,
+      "incorrect": 88,
+      "ie": 0,
+      "recovery_pct": 20.0,
+      "coverage_pct": 100.0,
+      "conditional_agreement_pct": 20.0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "misconception",
+      "gt": "ABSENT",
+      "n": 110,
+      "correct": 109,
+      "incorrect": 0,
+      "ie": 1,
+      "recovery_pct": 99.0909090909091,
+      "coverage_pct": 99.0909090909091,
+      "conditional_agreement_pct": 100.0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "misconception",
+      "gt": "PRESENT",
+      "n": 110,
+      "correct": 20,
+      "incorrect": 87,
+      "ie": 3,
+      "recovery_pct": 18.181818181818183,
+      "coverage_pct": 97.27272727272727,
+      "conditional_agreement_pct": 18.69158878504673
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "metacognition",
+      "gt": "HIGH",
+      "n": 110,
+      "correct": 74,
+      "incorrect": 1,
+      "ie": 35,
+      "recovery_pct": 67.27272727272727,
+      "coverage_pct": 68.18181818181819,
+      "conditional_agreement_pct": 98.66666666666667
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "metacognition",
+      "gt": "LOW",
+      "n": 110,
+      "correct": 9,
+      "incorrect": 54,
+      "ie": 47,
+      "recovery_pct": 8.181818181818182,
+      "coverage_pct": 57.27272727272727,
+      "conditional_agreement_pct": 14.285714285714286
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "transfer",
+      "gt": "HIGH",
+      "n": 110,
+      "correct": 11,
+      "incorrect": 1,
+      "ie": 98,
+      "recovery_pct": 10.0,
+      "coverage_pct": 10.909090909090908,
+      "conditional_agreement_pct": 91.66666666666667
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "transfer",
+      "gt": "LOW",
+      "n": 110,
+      "correct": 0,
+      "incorrect": 8,
+      "ie": 102,
+      "recovery_pct": 0.0,
+      "coverage_pct": 7.2727272727272725,
+      "conditional_agreement_pct": 0.0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "knowledge",
+      "gt": "HIGH",
+      "n": 110,
+      "correct": 83,
+      "incorrect": 27,
+      "ie": 0,
+      "recovery_pct": 75.45454545454545,
+      "coverage_pct": 100.0,
+      "conditional_agreement_pct": 75.45454545454545
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "knowledge",
+      "gt": "LOW",
+      "n": 110,
+      "correct": 44,
+      "incorrect": 66,
+      "ie": 0,
+      "recovery_pct": 40.0,
+      "coverage_pct": 100.0,
+      "conditional_agreement_pct": 40.0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "misconception",
+      "gt": "ABSENT",
+      "n": 110,
+      "correct": 98,
+      "incorrect": 2,
+      "ie": 10,
+      "recovery_pct": 89.0909090909091,
+      "coverage_pct": 90.9090909090909,
+      "conditional_agreement_pct": 98.0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "misconception",
+      "gt": "PRESENT",
+      "n": 110,
+      "correct": 8,
+      "incorrect": 85,
+      "ie": 17,
+      "recovery_pct": 7.2727272727272725,
+      "coverage_pct": 84.54545454545455,
+      "conditional_agreement_pct": 8.602150537634408
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "metacognition",
+      "gt": "HIGH",
+      "n": 110,
+      "correct": 71,
+      "incorrect": 1,
+      "ie": 38,
+      "recovery_pct": 64.54545454545455,
+      "coverage_pct": 65.45454545454545,
+      "conditional_agreement_pct": 98.61111111111111
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "metacognition",
+      "gt": "LOW",
+      "n": 110,
+      "correct": 6,
+      "incorrect": 41,
+      "ie": 63,
+      "recovery_pct": 5.454545454545454,
+      "coverage_pct": 42.72727272727273,
+      "conditional_agreement_pct": 12.76595744680851
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "transfer",
+      "gt": "HIGH",
+      "n": 110,
+      "correct": 0,
+      "incorrect": 0,
+      "ie": 110,
+      "recovery_pct": 0.0,
+      "coverage_pct": 0.0,
+      "conditional_agreement_pct": null
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "transfer",
+      "gt": "LOW",
+      "n": 110,
+      "correct": 0,
+      "incorrect": 2,
+      "ie": 108,
+      "recovery_pct": 0.0,
+      "coverage_pct": 1.8181818181818181,
+      "conditional_agreement_pct": 0.0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "knowledge",
+      "gt": "HIGH",
+      "n": 110,
+      "correct": 104,
+      "incorrect": 6,
+      "ie": 0,
+      "recovery_pct": 94.54545454545455,
+      "coverage_pct": 100.0,
+      "conditional_agreement_pct": 94.54545454545455
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "knowledge",
+      "gt": "LOW",
+      "n": 110,
+      "correct": 15,
+      "incorrect": 95,
+      "ie": 0,
+      "recovery_pct": 13.636363636363637,
+      "coverage_pct": 100.0,
+      "conditional_agreement_pct": 13.636363636363637
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "misconception",
+      "gt": "ABSENT",
+      "n": 110,
+      "correct": 104,
+      "incorrect": 5,
+      "ie": 1,
+      "recovery_pct": 94.54545454545455,
+      "coverage_pct": 99.0909090909091,
+      "conditional_agreement_pct": 95.41284403669725
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "misconception",
+      "gt": "PRESENT",
+      "n": 110,
+      "correct": 29,
+      "incorrect": 79,
+      "ie": 2,
+      "recovery_pct": 26.363636363636363,
+      "coverage_pct": 98.18181818181819,
+      "conditional_agreement_pct": 26.85185185185185
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "metacognition",
+      "gt": "HIGH",
+      "n": 110,
+      "correct": 97,
+      "incorrect": 1,
+      "ie": 12,
+      "recovery_pct": 88.18181818181819,
+      "coverage_pct": 89.0909090909091,
+      "conditional_agreement_pct": 98.9795918367347
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "metacognition",
+      "gt": "LOW",
+      "n": 110,
+      "correct": 11,
+      "incorrect": 69,
+      "ie": 30,
+      "recovery_pct": 10.0,
+      "coverage_pct": 72.72727272727273,
+      "conditional_agreement_pct": 13.75
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "transfer",
+      "gt": "HIGH",
+      "n": 110,
+      "correct": 41,
+      "incorrect": 1,
+      "ie": 68,
+      "recovery_pct": 37.27272727272727,
+      "coverage_pct": 38.18181818181818,
+      "conditional_agreement_pct": 97.61904761904762
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "transfer",
+      "gt": "LOW",
+      "n": 110,
+      "correct": 2,
+      "incorrect": 32,
+      "ie": 76,
+      "recovery_pct": 1.8181818181818181,
+      "coverage_pct": 30.90909090909091,
+      "conditional_agreement_pct": 5.882352941176471
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "knowledge",
+      "gt": "HIGH",
+      "n": 110,
+      "correct": 104,
+      "incorrect": 6,
+      "ie": 0,
+      "recovery_pct": 94.54545454545455,
+      "coverage_pct": 100.0,
+      "conditional_agreement_pct": 94.54545454545455
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "knowledge",
+      "gt": "LOW",
+      "n": 110,
+      "correct": 21,
+      "incorrect": 89,
+      "ie": 0,
+      "recovery_pct": 19.09090909090909,
+      "coverage_pct": 100.0,
+      "conditional_agreement_pct": 19.09090909090909
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "misconception",
+      "gt": "ABSENT",
+      "n": 110,
+      "correct": 107,
+      "incorrect": 2,
+      "ie": 1,
+      "recovery_pct": 97.27272727272727,
+      "coverage_pct": 99.0909090909091,
+      "conditional_agreement_pct": 98.1651376146789
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "misconception",
+      "gt": "PRESENT",
+      "n": 110,
+      "correct": 31,
+      "incorrect": 78,
+      "ie": 1,
+      "recovery_pct": 28.181818181818183,
+      "coverage_pct": 99.0909090909091,
+      "conditional_agreement_pct": 28.440366972477065
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "metacognition",
+      "gt": "HIGH",
+      "n": 110,
+      "correct": 96,
+      "incorrect": 1,
+      "ie": 13,
+      "recovery_pct": 87.27272727272727,
+      "coverage_pct": 88.18181818181819,
+      "conditional_agreement_pct": 98.96907216494846
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "metacognition",
+      "gt": "LOW",
+      "n": 110,
+      "correct": 10,
+      "incorrect": 72,
+      "ie": 28,
+      "recovery_pct": 9.090909090909092,
+      "coverage_pct": 74.54545454545455,
+      "conditional_agreement_pct": 12.195121951219512
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "transfer",
+      "gt": "HIGH",
+      "n": 110,
+      "correct": 33,
+      "incorrect": 4,
+      "ie": 73,
+      "recovery_pct": 30.0,
+      "coverage_pct": 33.63636363636363,
+      "conditional_agreement_pct": 89.1891891891892
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "transfer",
+      "gt": "LOW",
+      "n": 110,
+      "correct": 3,
+      "incorrect": 43,
+      "ie": 64,
+      "recovery_pct": 2.727272727272727,
+      "coverage_pct": 41.81818181818182,
+      "conditional_agreement_pct": 6.521739130434782
+    }
+  ],
+  "execution_summary": [
+    {
+      "condition": "Proxima",
+      "sessions": 220,
+      "learner_turns": 1210,
+      "turn_capped": 7
+    },
+    {
+      "condition": "Claude Vanilla",
+      "sessions": 220,
+      "learner_turns": 793,
+      "turn_capped": 13
+    },
+    {
+      "condition": "OpenAI",
+      "sessions": 220,
+      "learner_turns": 446,
+      "turn_capped": 3
+    },
+    {
+      "condition": "Claude Mainstream",
+      "sessions": 220,
+      "learner_turns": 1508,
+      "turn_capped": 53
+    },
+    {
+      "condition": "Mistral",
+      "sessions": 220,
+      "learner_turns": 1687,
+      "turn_capped": 83
+    }
+  ],
+  "core_knowledge_metacognition": [
+    {
+      "condition": "Proxima",
+      "metacognition_gt": "LOW",
+      "knowledge_gt": "LOW",
+      "n": 40,
+      "pred_low": 10,
+      "pred_high": 30,
+      "ie": 0,
+      "correct": 10
+    },
+    {
+      "condition": "Proxima",
+      "metacognition_gt": "LOW",
+      "knowledge_gt": "HIGH",
+      "n": 40,
+      "pred_low": 4,
+      "pred_high": 36,
+      "ie": 0,
+      "correct": 36
+    },
+    {
+      "condition": "Proxima",
+      "metacognition_gt": "HIGH",
+      "knowledge_gt": "LOW",
+      "n": 40,
+      "pred_low": 1,
+      "pred_high": 39,
+      "ie": 0,
+      "correct": 1
+    },
+    {
+      "condition": "Proxima",
+      "metacognition_gt": "HIGH",
+      "knowledge_gt": "HIGH",
+      "n": 40,
+      "pred_low": 0,
+      "pred_high": 40,
+      "ie": 0,
+      "correct": 40
+    },
+    {
+      "condition": "Claude Vanilla",
+      "metacognition_gt": "LOW",
+      "knowledge_gt": "LOW",
+      "n": 40,
+      "pred_low": 11,
+      "pred_high": 29,
+      "ie": 0,
+      "correct": 11
+    },
+    {
+      "condition": "Claude Vanilla",
+      "metacognition_gt": "LOW",
+      "knowledge_gt": "HIGH",
+      "n": 40,
+      "pred_low": 4,
+      "pred_high": 36,
+      "ie": 0,
+      "correct": 36
+    },
+    {
+      "condition": "Claude Vanilla",
+      "metacognition_gt": "HIGH",
+      "knowledge_gt": "LOW",
+      "n": 40,
+      "pred_low": 2,
+      "pred_high": 38,
+      "ie": 0,
+      "correct": 2
+    },
+    {
+      "condition": "Claude Vanilla",
+      "metacognition_gt": "HIGH",
+      "knowledge_gt": "HIGH",
+      "n": 40,
+      "pred_low": 0,
+      "pred_high": 40,
+      "ie": 0,
+      "correct": 40
+    },
+    {
+      "condition": "OpenAI",
+      "metacognition_gt": "LOW",
+      "knowledge_gt": "LOW",
+      "n": 40,
+      "pred_low": 28,
+      "pred_high": 12,
+      "ie": 0,
+      "correct": 28
+    },
+    {
+      "condition": "OpenAI",
+      "metacognition_gt": "LOW",
+      "knowledge_gt": "HIGH",
+      "n": 40,
+      "pred_low": 13,
+      "pred_high": 27,
+      "ie": 0,
+      "correct": 27
+    },
+    {
+      "condition": "OpenAI",
+      "metacognition_gt": "HIGH",
+      "knowledge_gt": "LOW",
+      "n": 40,
+      "pred_low": 6,
+      "pred_high": 34,
+      "ie": 0,
+      "correct": 6
+    },
+    {
+      "condition": "OpenAI",
+      "metacognition_gt": "HIGH",
+      "knowledge_gt": "HIGH",
+      "n": 40,
+      "pred_low": 6,
+      "pred_high": 34,
+      "ie": 0,
+      "correct": 34
+    },
+    {
+      "condition": "Claude Mainstream",
+      "metacognition_gt": "LOW",
+      "knowledge_gt": "LOW",
+      "n": 40,
+      "pred_low": 11,
+      "pred_high": 29,
+      "ie": 0,
+      "correct": 11
+    },
+    {
+      "condition": "Claude Mainstream",
+      "metacognition_gt": "LOW",
+      "knowledge_gt": "HIGH",
+      "n": 40,
+      "pred_low": 5,
+      "pred_high": 35,
+      "ie": 0,
+      "correct": 35
+    },
+    {
+      "condition": "Claude Mainstream",
+      "metacognition_gt": "HIGH",
+      "knowledge_gt": "LOW",
+      "n": 40,
+      "pred_low": 0,
+      "pred_high": 40,
+      "ie": 0,
+      "correct": 0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "metacognition_gt": "HIGH",
+      "knowledge_gt": "HIGH",
+      "n": 40,
+      "pred_low": 0,
+      "pred_high": 40,
+      "ie": 0,
+      "correct": 40
+    },
+    {
+      "condition": "Mistral",
+      "metacognition_gt": "LOW",
+      "knowledge_gt": "LOW",
+      "n": 40,
+      "pred_low": 15,
+      "pred_high": 25,
+      "ie": 0,
+      "correct": 15
+    },
+    {
+      "condition": "Mistral",
+      "metacognition_gt": "LOW",
+      "knowledge_gt": "HIGH",
+      "n": 40,
+      "pred_low": 4,
+      "pred_high": 36,
+      "ie": 0,
+      "correct": 36
+    },
+    {
+      "condition": "Mistral",
+      "metacognition_gt": "HIGH",
+      "knowledge_gt": "LOW",
+      "n": 40,
+      "pred_low": 0,
+      "pred_high": 40,
+      "ie": 0,
+      "correct": 0
+    },
+    {
+      "condition": "Mistral",
+      "metacognition_gt": "HIGH",
+      "knowledge_gt": "HIGH",
+      "n": 40,
+      "pred_low": 0,
+      "pred_high": 40,
+      "ie": 0,
+      "correct": 40
+    }
+  ],
+  "sensitivity_knowledge_metacognition": [
+    {
+      "condition": "Proxima",
+      "analysis": "subgroup",
+      "factor": "style",
+      "level": "style_a",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 60.0,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -10.0
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "subgroup",
+      "factor": "style",
+      "level": "style_b",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 55.00000000000001,
+      "accuracy_m_high_pct": 52.5,
+      "difference_high_minus_low_pp": -2.500000000000007
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "subgroup",
+      "factor": "misconception_gt",
+      "level": "ABSENT",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 52.5,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -2.5
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "subgroup",
+      "factor": "misconception_gt",
+      "level": "PRESENT",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 62.5,
+      "accuracy_m_high_pct": 52.5,
+      "difference_high_minus_low_pp": -10.0
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "subgroup",
+      "factor": "transfer_gt",
+      "level": "HIGH",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 57.49999999999999,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -7.499999999999993
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "subgroup",
+      "factor": "transfer_gt",
+      "level": "LOW",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 57.49999999999999,
+      "accuracy_m_high_pct": 52.5,
+      "difference_high_minus_low_pp": -4.999999999999993
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_001",
+      "n_low": 80,
+      "n_high": 75,
+      "accuracy_m_low_pct": 57.49999999999999,
+      "accuracy_m_high_pct": 51.35135135135135,
+      "difference_high_minus_low_pp": -6.148648648648646
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_002",
+      "n_low": 78,
+      "n_high": 76,
+      "accuracy_m_low_pct": 57.692307692307686,
+      "accuracy_m_high_pct": 51.24999999999999,
+      "difference_high_minus_low_pp": -6.442307692307693
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_003",
+      "n_low": 78,
+      "n_high": 77,
+      "accuracy_m_low_pct": 58.15789473684211,
+      "accuracy_m_high_pct": 51.31578947368421,
+      "difference_high_minus_low_pp": -6.842105263157897
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_004",
+      "n_low": 77,
+      "n_high": 76,
+      "accuracy_m_low_pct": 58.02968960863698,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -8.029689608636978
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_005",
+      "n_low": 79,
+      "n_high": 75,
+      "accuracy_m_low_pct": 56.53846153846154,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -5.256410256410263
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_006",
+      "n_low": 78,
+      "n_high": 78,
+      "accuracy_m_low_pct": 57.692307692307686,
+      "accuracy_m_high_pct": 51.31578947368421,
+      "difference_high_minus_low_pp": -6.376518218623474
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_007",
+      "n_low": 77,
+      "n_high": 75,
+      "accuracy_m_low_pct": 55.39811066126856,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -4.116059379217283
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_008",
+      "n_low": 76,
+      "n_high": 78,
+      "accuracy_m_low_pct": 56.57894736842105,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -5.29689608636977
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_009",
+      "n_low": 75,
+      "n_high": 79,
+      "accuracy_m_low_pct": 59.56614509246088,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -8.284093810409601
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_010",
+      "n_low": 76,
+      "n_high": 79,
+      "accuracy_m_low_pct": 57.415107415107414,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -6.133056133056137
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_011",
+      "n_low": 79,
+      "n_high": 76,
+      "accuracy_m_low_pct": 57.37179487179487,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -6.089743589743591
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_012",
+      "n_low": 78,
+      "n_high": 77,
+      "accuracy_m_low_pct": 57.236842105263165,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -5.954790823211887
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_013",
+      "n_low": 77,
+      "n_high": 79,
+      "accuracy_m_low_pct": 56.2753036437247,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -4.99325236167342
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_014",
+      "n_low": 78,
+      "n_high": 78,
+      "accuracy_m_low_pct": 57.6923076923077,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -6.410256410256423
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_015",
+      "n_low": 76,
+      "n_high": 79,
+      "accuracy_m_low_pct": 58.385308385308385,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -7.103257103257107
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_016",
+      "n_low": 78,
+      "n_high": 76,
+      "accuracy_m_low_pct": 58.55263157894737,
+      "accuracy_m_high_pct": 51.31578947368421,
+      "difference_high_minus_low_pp": -7.2368421052631575
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_017",
+      "n_low": 76,
+      "n_high": 78,
+      "accuracy_m_low_pct": 56.57894736842105,
+      "accuracy_m_high_pct": 51.31578947368421,
+      "difference_high_minus_low_pp": -5.263157894736835
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_018",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 58.87314439946019,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -7.59109311740891
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_019",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 58.02968960863698,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -6.747638326585701
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_020",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 58.02968960863698,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -6.747638326585701
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_021",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 56.713900134952766,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -5.4318488529014886
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_022",
+      "n_low": 76,
+      "n_high": 77,
+      "accuracy_m_low_pct": 57.415107415107414,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -6.133056133056137
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_023",
+      "n_low": 75,
+      "n_high": 79,
+      "accuracy_m_low_pct": 55.98290598290598,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -4.7008547008547055
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_024",
+      "n_low": 76,
+      "n_high": 78,
+      "accuracy_m_low_pct": 57.415107415107414,
+      "accuracy_m_high_pct": 51.31578947368421,
+      "difference_high_minus_low_pp": -6.099317941423202
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_025",
+      "n_low": 80,
+      "n_high": 75,
+      "accuracy_m_low_pct": 57.49999999999999,
+      "accuracy_m_high_pct": 51.31578947368421,
+      "difference_high_minus_low_pp": -6.1842105263157805
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_026",
+      "n_low": 78,
+      "n_high": 77,
+      "accuracy_m_low_pct": 58.15789473684211,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -6.875843454790832
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_027",
+      "n_low": 77,
+      "n_high": 79,
+      "accuracy_m_low_pct": 58.02968960863698,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -6.747638326585701
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_028",
+      "n_low": 79,
+      "n_high": 77,
+      "accuracy_m_low_pct": 57.37179487179487,
+      "accuracy_m_high_pct": 51.31578947368421,
+      "difference_high_minus_low_pp": -6.056005398110656
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_029",
+      "n_low": 78,
+      "n_high": 76,
+      "accuracy_m_low_pct": 57.236842105263165,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -5.954790823211887
+    },
+    {
+      "condition": "Proxima",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_030",
+      "n_low": 77,
+      "n_high": 79,
+      "accuracy_m_low_pct": 57.55735492577598,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -6.275303643724705
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "subgroup",
+      "factor": "style",
+      "level": "style_a",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 62.5,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -12.5
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "subgroup",
+      "factor": "style",
+      "level": "style_b",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 55.00000000000001,
+      "accuracy_m_high_pct": 55.00000000000001,
+      "difference_high_minus_low_pp": 0.0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "subgroup",
+      "factor": "misconception_gt",
+      "level": "ABSENT",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 52.5,
+      "accuracy_m_high_pct": 52.5,
+      "difference_high_minus_low_pp": 0.0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "subgroup",
+      "factor": "misconception_gt",
+      "level": "PRESENT",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 65.0,
+      "accuracy_m_high_pct": 52.5,
+      "difference_high_minus_low_pp": -12.5
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "subgroup",
+      "factor": "transfer_gt",
+      "level": "HIGH",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 55.00000000000001,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -5.000000000000007
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "subgroup",
+      "factor": "transfer_gt",
+      "level": "LOW",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 62.5,
+      "accuracy_m_high_pct": 55.00000000000001,
+      "difference_high_minus_low_pp": -7.499999999999993
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_001",
+      "n_low": 80,
+      "n_high": 75,
+      "accuracy_m_low_pct": 58.75,
+      "accuracy_m_high_pct": 52.702702702702695,
+      "difference_high_minus_low_pp": -6.047297297297305
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_002",
+      "n_low": 78,
+      "n_high": 76,
+      "accuracy_m_low_pct": 57.692307692307686,
+      "accuracy_m_high_pct": 52.5,
+      "difference_high_minus_low_pp": -5.192307692307686
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_003",
+      "n_low": 78,
+      "n_high": 77,
+      "accuracy_m_low_pct": 59.47368421052632,
+      "accuracy_m_high_pct": 52.63157894736842,
+      "difference_high_minus_low_pp": -6.8421052631579045
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_004",
+      "n_low": 77,
+      "n_high": 76,
+      "accuracy_m_low_pct": 59.3454790823212,
+      "accuracy_m_high_pct": 52.702702702702695,
+      "difference_high_minus_low_pp": -6.642776379618503
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_005",
+      "n_low": 79,
+      "n_high": 75,
+      "accuracy_m_low_pct": 59.1025641025641,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -6.538461538461533
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_006",
+      "n_low": 78,
+      "n_high": 78,
+      "accuracy_m_low_pct": 58.97435897435898,
+      "accuracy_m_high_pct": 52.63157894736842,
+      "difference_high_minus_low_pp": -6.34278002699056
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_007",
+      "n_low": 77,
+      "n_high": 75,
+      "accuracy_m_low_pct": 59.311740890688256,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -6.747638326585687
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_008",
+      "n_low": 76,
+      "n_high": 78,
+      "accuracy_m_low_pct": 57.89473684210527,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -5.330634278002698
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_009",
+      "n_low": 75,
+      "n_high": 79,
+      "accuracy_m_low_pct": 59.60170697012802,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -7.0376044060254515
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_010",
+      "n_low": 76,
+      "n_high": 79,
+      "accuracy_m_low_pct": 60.04851004851005,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -7.484407484407484
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_011",
+      "n_low": 79,
+      "n_high": 76,
+      "accuracy_m_low_pct": 58.621794871794876,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -6.057692307692307
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_012",
+      "n_low": 78,
+      "n_high": 77,
+      "accuracy_m_low_pct": 58.48684210526316,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -5.922739541160588
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_013",
+      "n_low": 77,
+      "n_high": 79,
+      "accuracy_m_low_pct": 58.83940620782726,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -6.2753036437246905
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_014",
+      "n_low": 78,
+      "n_high": 78,
+      "accuracy_m_low_pct": 58.97435897435898,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -6.410256410256409
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_015",
+      "n_low": 76,
+      "n_high": 79,
+      "accuracy_m_low_pct": 58.385308385308385,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -5.821205821205815
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_016",
+      "n_low": 78,
+      "n_high": 76,
+      "accuracy_m_low_pct": 58.48684210526316,
+      "accuracy_m_high_pct": 52.63157894736842,
+      "difference_high_minus_low_pp": -5.85526315789474
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_017",
+      "n_low": 76,
+      "n_high": 78,
+      "accuracy_m_low_pct": 57.89473684210527,
+      "accuracy_m_high_pct": 51.31578947368421,
+      "difference_high_minus_low_pp": -6.578947368421055
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_018",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 58.87314439946019,
+      "accuracy_m_high_pct": 51.28205128205128,
+      "difference_high_minus_low_pp": -7.59109311740891
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_019",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 58.02968960863698,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -5.465587044534409
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_020",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 59.3454790823212,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -6.781376518218629
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_021",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 58.02968960863698,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -5.465587044534409
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_022",
+      "n_low": 76,
+      "n_high": 77,
+      "accuracy_m_low_pct": 58.6971586971587,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -6.1330561330561295
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_023",
+      "n_low": 75,
+      "n_high": 79,
+      "accuracy_m_low_pct": 57.37179487179487,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -4.8076923076922995
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_024",
+      "n_low": 76,
+      "n_high": 78,
+      "accuracy_m_low_pct": 58.6971586971587,
+      "accuracy_m_high_pct": 52.63157894736842,
+      "difference_high_minus_low_pp": -6.065579749790281
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_025",
+      "n_low": 80,
+      "n_high": 75,
+      "accuracy_m_low_pct": 58.75,
+      "accuracy_m_high_pct": 52.63157894736842,
+      "difference_high_minus_low_pp": -6.118421052631582
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_026",
+      "n_low": 78,
+      "n_high": 77,
+      "accuracy_m_low_pct": 59.47368421052632,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -6.909581646423753
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_027",
+      "n_low": 77,
+      "n_high": 79,
+      "accuracy_m_low_pct": 59.3454790823212,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -6.781376518218629
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_028",
+      "n_low": 79,
+      "n_high": 77,
+      "accuracy_m_low_pct": 58.621794871794876,
+      "accuracy_m_high_pct": 52.63157894736842,
+      "difference_high_minus_low_pp": -5.990215924426458
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_029",
+      "n_low": 78,
+      "n_high": 76,
+      "accuracy_m_low_pct": 58.48684210526316,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -5.922739541160588
+    },
+    {
+      "condition": "Claude Vanilla",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_030",
+      "n_low": 77,
+      "n_high": 79,
+      "accuracy_m_low_pct": 58.83940620782726,
+      "accuracy_m_high_pct": 52.56410256410257,
+      "difference_high_minus_low_pp": -6.2753036437246905
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "subgroup",
+      "factor": "style",
+      "level": "style_a",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 65.0,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -15.0
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "subgroup",
+      "factor": "style",
+      "level": "style_b",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 72.5,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -22.5
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "subgroup",
+      "factor": "misconception_gt",
+      "level": "ABSENT",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 77.5,
+      "accuracy_m_high_pct": 52.5,
+      "difference_high_minus_low_pp": -25.0
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "subgroup",
+      "factor": "misconception_gt",
+      "level": "PRESENT",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 60.0,
+      "accuracy_m_high_pct": 47.5,
+      "difference_high_minus_low_pp": -12.5
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "subgroup",
+      "factor": "transfer_gt",
+      "level": "HIGH",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 62.5,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -12.5
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "subgroup",
+      "factor": "transfer_gt",
+      "level": "LOW",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 75.0,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -25.0
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_001",
+      "n_low": 80,
+      "n_high": 75,
+      "accuracy_m_low_pct": 68.75,
+      "accuracy_m_high_pct": 48.86201991465149,
+      "difference_high_minus_low_pp": -19.88798008534851
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_002",
+      "n_low": 78,
+      "n_high": 76,
+      "accuracy_m_low_pct": 67.94871794871796,
+      "accuracy_m_high_pct": 49.16666666666667,
+      "difference_high_minus_low_pp": -18.782051282051285
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_003",
+      "n_low": 78,
+      "n_high": 77,
+      "accuracy_m_low_pct": 70.59210526315789,
+      "accuracy_m_high_pct": 50.20242914979757,
+      "difference_high_minus_low_pp": -20.389676113360323
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_004",
+      "n_low": 77,
+      "n_high": 76,
+      "accuracy_m_low_pct": 68.85964912280701,
+      "accuracy_m_high_pct": 50.41580041580042,
+      "difference_high_minus_low_pp": -18.443848707006595
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_005",
+      "n_low": 79,
+      "n_high": 75,
+      "accuracy_m_low_pct": 68.36538461538461,
+      "accuracy_m_high_pct": 49.358974358974365,
+      "difference_high_minus_low_pp": -19.00641025641025
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_006",
+      "n_low": 78,
+      "n_high": 78,
+      "accuracy_m_low_pct": 69.23076923076923,
+      "accuracy_m_high_pct": 50.39473684210526,
+      "difference_high_minus_low_pp": -18.836032388663966
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_007",
+      "n_low": 77,
+      "n_high": 75,
+      "accuracy_m_low_pct": 67.54385964912281,
+      "accuracy_m_high_pct": 49.465811965811966,
+      "difference_high_minus_low_pp": -18.078047683310842
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_008",
+      "n_low": 76,
+      "n_high": 78,
+      "accuracy_m_low_pct": 68.42105263157895,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -18.421052631578945
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_009",
+      "n_low": 75,
+      "n_high": 79,
+      "accuracy_m_low_pct": 67.99431009957327,
+      "accuracy_m_high_pct": 48.91025641025641,
+      "difference_high_minus_low_pp": -19.08405368931686
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_010",
+      "n_low": 76,
+      "n_high": 79,
+      "accuracy_m_low_pct": 68.3991683991684,
+      "accuracy_m_high_pct": 50.19230769230769,
+      "difference_high_minus_low_pp": -18.20686070686071
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_011",
+      "n_low": 79,
+      "n_high": 76,
+      "accuracy_m_low_pct": 69.61538461538461,
+      "accuracy_m_high_pct": 52.35620235620235,
+      "difference_high_minus_low_pp": -17.25918225918226
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_012",
+      "n_low": 78,
+      "n_high": 77,
+      "accuracy_m_low_pct": 70.52631578947368,
+      "accuracy_m_high_pct": 51.113360323886646,
+      "difference_high_minus_low_pp": -19.41295546558704
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_013",
+      "n_low": 77,
+      "n_high": 79,
+      "accuracy_m_low_pct": 70.1417004048583,
+      "accuracy_m_high_pct": 48.91025641025641,
+      "difference_high_minus_low_pp": -21.23144399460189
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_014",
+      "n_low": 78,
+      "n_high": 78,
+      "accuracy_m_low_pct": 69.23076923076923,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -19.230769230769226
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_015",
+      "n_low": 76,
+      "n_high": 79,
+      "accuracy_m_low_pct": 67.11711711711712,
+      "accuracy_m_high_pct": 50.19230769230769,
+      "difference_high_minus_low_pp": -16.924809424809425
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_016",
+      "n_low": 78,
+      "n_high": 76,
+      "accuracy_m_low_pct": 69.21052631578948,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -19.21052631578948
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_017",
+      "n_low": 76,
+      "n_high": 78,
+      "accuracy_m_low_pct": 69.73684210526316,
+      "accuracy_m_high_pct": 50.39473684210526,
+      "difference_high_minus_low_pp": -19.342105263157904
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_018",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 68.82591093117409,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -18.825910931174093
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_019",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 68.85964912280701,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -18.859649122807014
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_020",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 70.17543859649122,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -20.17543859649122
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_021",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 70.17543859649122,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -20.17543859649122
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_022",
+      "n_low": 76,
+      "n_high": 77,
+      "accuracy_m_low_pct": 68.32986832986833,
+      "accuracy_m_high_pct": 49.797570850202426,
+      "difference_high_minus_low_pp": -18.532297479665907
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_023",
+      "n_low": 75,
+      "n_high": 79,
+      "accuracy_m_low_pct": 66.66666666666666,
+      "accuracy_m_high_pct": 50.19230769230769,
+      "difference_high_minus_low_pp": -16.474358974358964
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_024",
+      "n_low": 76,
+      "n_high": 78,
+      "accuracy_m_low_pct": 68.32986832986833,
+      "accuracy_m_high_pct": 50.39473684210526,
+      "difference_high_minus_low_pp": -17.935131487763073
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_025",
+      "n_low": 80,
+      "n_high": 75,
+      "accuracy_m_low_pct": 68.75,
+      "accuracy_m_high_pct": 49.78662873399715,
+      "difference_high_minus_low_pp": -18.963371266002852
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_026",
+      "n_low": 78,
+      "n_high": 77,
+      "accuracy_m_low_pct": 69.27631578947368,
+      "accuracy_m_high_pct": 49.797570850202426,
+      "difference_high_minus_low_pp": -19.47874493927126
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_027",
+      "n_low": 77,
+      "n_high": 79,
+      "accuracy_m_low_pct": 67.54385964912281,
+      "accuracy_m_high_pct": 50.19230769230769,
+      "difference_high_minus_low_pp": -17.351551956815115
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_028",
+      "n_low": 79,
+      "n_high": 77,
+      "accuracy_m_low_pct": 68.33333333333333,
+      "accuracy_m_high_pct": 50.20242914979757,
+      "difference_high_minus_low_pp": -18.130904183535762
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_029",
+      "n_low": 78,
+      "n_high": 76,
+      "accuracy_m_low_pct": 67.89473684210526,
+      "accuracy_m_high_pct": 49.58419958419958,
+      "difference_high_minus_low_pp": -18.31053725790568
+    },
+    {
+      "condition": "OpenAI",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_030",
+      "n_low": 77,
+      "n_high": 79,
+      "accuracy_m_low_pct": 67.51012145748987,
+      "accuracy_m_high_pct": 50.19230769230769,
+      "difference_high_minus_low_pp": -17.31781376518218
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "subgroup",
+      "factor": "style",
+      "level": "style_a",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 52.5,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -2.5
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "subgroup",
+      "factor": "style",
+      "level": "style_b",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 62.5,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -12.5
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "subgroup",
+      "factor": "misconception_gt",
+      "level": "ABSENT",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 55.00000000000001,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -5.000000000000007
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "subgroup",
+      "factor": "misconception_gt",
+      "level": "PRESENT",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 60.0,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -10.0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "subgroup",
+      "factor": "transfer_gt",
+      "level": "HIGH",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 55.00000000000001,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -5.000000000000007
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "subgroup",
+      "factor": "transfer_gt",
+      "level": "LOW",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 60.0,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -10.0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_001",
+      "n_low": 80,
+      "n_high": 75,
+      "accuracy_m_low_pct": 57.49999999999999,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -7.499999999999993
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_002",
+      "n_low": 78,
+      "n_high": 76,
+      "accuracy_m_low_pct": 57.692307692307686,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -7.692307692307686
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_003",
+      "n_low": 78,
+      "n_high": 77,
+      "accuracy_m_low_pct": 58.223684210526315,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -8.223684210526315
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_004",
+      "n_low": 77,
+      "n_high": 76,
+      "accuracy_m_low_pct": 56.747638326585694,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -6.747638326585694
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_005",
+      "n_low": 79,
+      "n_high": 75,
+      "accuracy_m_low_pct": 56.57051282051282,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -6.570512820512818
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_006",
+      "n_low": 78,
+      "n_high": 78,
+      "accuracy_m_low_pct": 57.692307692307686,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -7.692307692307686
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_007",
+      "n_low": 77,
+      "n_high": 75,
+      "accuracy_m_low_pct": 56.747638326585694,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -6.747638326585694
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_008",
+      "n_low": 76,
+      "n_high": 78,
+      "accuracy_m_low_pct": 55.26315789473685,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -5.26315789473685
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_009",
+      "n_low": 75,
+      "n_high": 79,
+      "accuracy_m_low_pct": 56.93456614509247,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -6.934566145092468
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_010",
+      "n_low": 76,
+      "n_high": 79,
+      "accuracy_m_low_pct": 58.6971586971587,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -8.697158697158699
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_011",
+      "n_low": 79,
+      "n_high": 76,
+      "accuracy_m_low_pct": 57.339743589743584,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -7.339743589743584
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_012",
+      "n_low": 78,
+      "n_high": 77,
+      "accuracy_m_low_pct": 57.17105263157896,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -7.171052631578959
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_013",
+      "n_low": 77,
+      "n_high": 79,
+      "accuracy_m_low_pct": 57.523616734143054,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -7.523616734143054
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_014",
+      "n_low": 78,
+      "n_high": 78,
+      "accuracy_m_low_pct": 57.692307692307686,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -7.692307692307686
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_015",
+      "n_low": 76,
+      "n_high": 79,
+      "accuracy_m_low_pct": 57.1032571032571,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -7.1032571032571
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_016",
+      "n_low": 78,
+      "n_high": 76,
+      "accuracy_m_low_pct": 58.48684210526316,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -8.486842105263158
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_017",
+      "n_low": 76,
+      "n_high": 78,
+      "accuracy_m_low_pct": 56.57894736842105,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -6.578947368421048
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_018",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 58.83940620782726,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -8.83940620782726
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_019",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 56.747638326585694,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -6.747638326585694
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_020",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 58.063427800269906,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -8.063427800269906
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_021",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 58.063427800269906,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -8.063427800269906
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_022",
+      "n_low": 76,
+      "n_high": 77,
+      "accuracy_m_low_pct": 57.345807345807344,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -7.345807345807344
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_023",
+      "n_low": 75,
+      "n_high": 79,
+      "accuracy_m_low_pct": 57.47863247863248,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -7.478632478632477
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_024",
+      "n_low": 76,
+      "n_high": 78,
+      "accuracy_m_low_pct": 57.345807345807344,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -7.345807345807344
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_025",
+      "n_low": 80,
+      "n_high": 75,
+      "accuracy_m_low_pct": 57.49999999999999,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -7.499999999999993
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_026",
+      "n_low": 78,
+      "n_high": 77,
+      "accuracy_m_low_pct": 58.223684210526315,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -8.223684210526315
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_027",
+      "n_low": 77,
+      "n_high": 79,
+      "accuracy_m_low_pct": 58.063427800269906,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -8.063427800269906
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_028",
+      "n_low": 79,
+      "n_high": 77,
+      "accuracy_m_low_pct": 57.339743589743584,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -7.339743589743584
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_029",
+      "n_low": 78,
+      "n_high": 76,
+      "accuracy_m_low_pct": 57.17105263157896,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -7.171052631578959
+    },
+    {
+      "condition": "Claude Mainstream",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_030",
+      "n_low": 77,
+      "n_high": 79,
+      "accuracy_m_low_pct": 58.83940620782726,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -8.83940620782726
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "subgroup",
+      "factor": "style",
+      "level": "style_a",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 67.5,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -17.5
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "subgroup",
+      "factor": "style",
+      "level": "style_b",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 60.0,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -10.0
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "subgroup",
+      "factor": "misconception_gt",
+      "level": "ABSENT",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 55.00000000000001,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -5.000000000000007
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "subgroup",
+      "factor": "misconception_gt",
+      "level": "PRESENT",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 72.50000000000001,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -22.500000000000014
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "subgroup",
+      "factor": "transfer_gt",
+      "level": "HIGH",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 62.5,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -12.5
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "subgroup",
+      "factor": "transfer_gt",
+      "level": "LOW",
+      "n_low": 40,
+      "n_high": 40,
+      "accuracy_m_low_pct": 65.0,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -15.0
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_001",
+      "n_low": 80,
+      "n_high": 75,
+      "accuracy_m_low_pct": 63.74999999999999,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -13.749999999999993
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_002",
+      "n_low": 78,
+      "n_high": 76,
+      "accuracy_m_low_pct": 64.1025641025641,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -14.102564102564102
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_003",
+      "n_low": 78,
+      "n_high": 77,
+      "accuracy_m_low_pct": 64.73684210526316,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -14.736842105263165
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_004",
+      "n_low": 77,
+      "n_high": 76,
+      "accuracy_m_low_pct": 63.292847503373814,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -13.292847503373814
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_005",
+      "n_low": 79,
+      "n_high": 75,
+      "accuracy_m_low_pct": 64.23076923076924,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -14.23076923076924
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_006",
+      "n_low": 78,
+      "n_high": 78,
+      "accuracy_m_low_pct": 64.1025641025641,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -14.102564102564102
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_007",
+      "n_low": 77,
+      "n_high": 75,
+      "accuracy_m_low_pct": 63.292847503373814,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -13.292847503373814
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_008",
+      "n_low": 76,
+      "n_high": 78,
+      "accuracy_m_low_pct": 64.47368421052632,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -14.473684210526315
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_009",
+      "n_low": 75,
+      "n_high": 79,
+      "accuracy_m_low_pct": 62.30440967283073,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -12.30440967283073
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_010",
+      "n_low": 76,
+      "n_high": 79,
+      "accuracy_m_low_pct": 63.82536382536382,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -13.825363825363823
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_011",
+      "n_low": 79,
+      "n_high": 76,
+      "accuracy_m_low_pct": 63.62179487179487,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -13.621794871794869
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_012",
+      "n_low": 78,
+      "n_high": 77,
+      "accuracy_m_low_pct": 63.486842105263165,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -13.486842105263165
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_013",
+      "n_low": 77,
+      "n_high": 79,
+      "accuracy_m_low_pct": 63.96761133603239,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -13.967611336032391
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_014",
+      "n_low": 78,
+      "n_high": 78,
+      "accuracy_m_low_pct": 64.1025641025641,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -14.102564102564102
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_015",
+      "n_low": 76,
+      "n_high": 79,
+      "accuracy_m_low_pct": 65.14206514206514,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -15.142065142065135
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_016",
+      "n_low": 78,
+      "n_high": 76,
+      "accuracy_m_low_pct": 64.80263157894737,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -14.80263157894737
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_017",
+      "n_low": 76,
+      "n_high": 78,
+      "accuracy_m_low_pct": 65.78947368421052,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -15.78947368421052
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_018",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 62.685560053981106,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -12.685560053981106
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_019",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 63.292847503373814,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -13.292847503373814
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_020",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 63.292847503373814,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -13.292847503373814
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_021",
+      "n_low": 77,
+      "n_high": 78,
+      "accuracy_m_low_pct": 61.977058029689616,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -11.977058029689616
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_022",
+      "n_low": 76,
+      "n_high": 77,
+      "accuracy_m_low_pct": 62.543312543312545,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -12.543312543312545
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_023",
+      "n_low": 75,
+      "n_high": 79,
+      "accuracy_m_low_pct": 62.927350427350426,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -12.927350427350426
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_024",
+      "n_low": 76,
+      "n_high": 78,
+      "accuracy_m_low_pct": 63.82536382536382,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -13.825363825363823
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_025",
+      "n_low": 80,
+      "n_high": 75,
+      "accuracy_m_low_pct": 63.74999999999999,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -13.749999999999993
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_026",
+      "n_low": 78,
+      "n_high": 77,
+      "accuracy_m_low_pct": 63.421052631578945,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -13.421052631578945
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_027",
+      "n_low": 77,
+      "n_high": 79,
+      "accuracy_m_low_pct": 64.60863697705803,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -14.608636977058026
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_028",
+      "n_low": 79,
+      "n_high": 77,
+      "accuracy_m_low_pct": 63.62179487179487,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -13.621794871794869
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_029",
+      "n_low": 78,
+      "n_high": 76,
+      "accuracy_m_low_pct": 63.486842105263165,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -13.486842105263165
+    },
+    {
+      "condition": "Mistral",
+      "analysis": "leave_one_task_out",
+      "factor": "excluded_task",
+      "level": "TASK_FRACTIONS_030",
+      "n_low": 77,
+      "n_high": 79,
+      "accuracy_m_low_pct": 63.96761133603239,
+      "accuracy_m_high_pct": 50.0,
+      "difference_high_minus_low_pp": -13.967611336032391
+    }
+  ],
+  "paired_channel_summary": [
+    {
+      "condition": "Proxima",
+      "dimension": "knowledge",
+      "n_pairs": 40,
+      "core_correct": 19,
+      "channel_correct": 25,
+      "label_disagreements": 6,
+      "both_judged_opposite": 6,
+      "correct_to_incorrect": 0,
+      "incorrect_to_correct": 6,
+      "abstention_transitions": 0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "misconception",
+      "n_pairs": 40,
+      "core_correct": 25,
+      "channel_correct": 23,
+      "label_disagreements": 7,
+      "both_judged_opposite": 6,
+      "correct_to_incorrect": 4,
+      "incorrect_to_correct": 2,
+      "abstention_transitions": 1
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "metacognition",
+      "n_pairs": 40,
+      "core_correct": 23,
+      "channel_correct": 21,
+      "label_disagreements": 11,
+      "both_judged_opposite": 4,
+      "correct_to_incorrect": 2,
+      "incorrect_to_correct": 2,
+      "abstention_transitions": 7
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "transfer",
+      "n_pairs": 40,
+      "core_correct": 2,
+      "channel_correct": 3,
+      "label_disagreements": 11,
+      "both_judged_opposite": 0,
+      "correct_to_incorrect": 0,
+      "incorrect_to_correct": 0,
+      "abstention_transitions": 11
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "knowledge",
+      "n_pairs": 40,
+      "core_correct": 22,
+      "channel_correct": 22,
+      "label_disagreements": 4,
+      "both_judged_opposite": 3,
+      "correct_to_incorrect": 1,
+      "incorrect_to_correct": 2,
+      "abstention_transitions": 1
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "misconception",
+      "n_pairs": 40,
+      "core_correct": 26,
+      "channel_correct": 23,
+      "label_disagreements": 5,
+      "both_judged_opposite": 3,
+      "correct_to_incorrect": 3,
+      "incorrect_to_correct": 0,
+      "abstention_transitions": 2
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "metacognition",
+      "n_pairs": 40,
+      "core_correct": 14,
+      "channel_correct": 13,
+      "label_disagreements": 9,
+      "both_judged_opposite": 1,
+      "correct_to_incorrect": 1,
+      "incorrect_to_correct": 0,
+      "abstention_transitions": 8
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "transfer",
+      "n_pairs": 40,
+      "core_correct": 0,
+      "channel_correct": 4,
+      "label_disagreements": 10,
+      "both_judged_opposite": 0,
+      "correct_to_incorrect": 0,
+      "incorrect_to_correct": 0,
+      "abstention_transitions": 10
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "knowledge",
+      "n_pairs": 40,
+      "core_correct": 24,
+      "channel_correct": 23,
+      "label_disagreements": 3,
+      "both_judged_opposite": 3,
+      "correct_to_incorrect": 2,
+      "incorrect_to_correct": 1,
+      "abstention_transitions": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "misconception",
+      "n_pairs": 40,
+      "core_correct": 23,
+      "channel_correct": 17,
+      "label_disagreements": 10,
+      "both_judged_opposite": 3,
+      "correct_to_incorrect": 3,
+      "incorrect_to_correct": 0,
+      "abstention_transitions": 7
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "metacognition",
+      "n_pairs": 40,
+      "core_correct": 13,
+      "channel_correct": 15,
+      "label_disagreements": 8,
+      "both_judged_opposite": 2,
+      "correct_to_incorrect": 0,
+      "incorrect_to_correct": 2,
+      "abstention_transitions": 6
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "transfer",
+      "n_pairs": 40,
+      "core_correct": 0,
+      "channel_correct": 0,
+      "label_disagreements": 1,
+      "both_judged_opposite": 0,
+      "correct_to_incorrect": 0,
+      "incorrect_to_correct": 0,
+      "abstention_transitions": 1
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "knowledge",
+      "n_pairs": 40,
+      "core_correct": 22,
+      "channel_correct": 21,
+      "label_disagreements": 3,
+      "both_judged_opposite": 3,
+      "correct_to_incorrect": 2,
+      "incorrect_to_correct": 1,
+      "abstention_transitions": 0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "misconception",
+      "n_pairs": 40,
+      "core_correct": 24,
+      "channel_correct": 26,
+      "label_disagreements": 6,
+      "both_judged_opposite": 5,
+      "correct_to_incorrect": 1,
+      "incorrect_to_correct": 4,
+      "abstention_transitions": 1
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "metacognition",
+      "n_pairs": 40,
+      "core_correct": 21,
+      "channel_correct": 19,
+      "label_disagreements": 10,
+      "both_judged_opposite": 1,
+      "correct_to_incorrect": 1,
+      "incorrect_to_correct": 0,
+      "abstention_transitions": 9
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "transfer",
+      "n_pairs": 40,
+      "core_correct": 10,
+      "channel_correct": 5,
+      "label_disagreements": 19,
+      "both_judged_opposite": 0,
+      "correct_to_incorrect": 0,
+      "incorrect_to_correct": 0,
+      "abstention_transitions": 19
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "knowledge",
+      "n_pairs": 40,
+      "core_correct": 23,
+      "channel_correct": 23,
+      "label_disagreements": 6,
+      "both_judged_opposite": 6,
+      "correct_to_incorrect": 3,
+      "incorrect_to_correct": 3,
+      "abstention_transitions": 0
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "misconception",
+      "n_pairs": 40,
+      "core_correct": 24,
+      "channel_correct": 25,
+      "label_disagreements": 9,
+      "both_judged_opposite": 8,
+      "correct_to_incorrect": 3,
+      "incorrect_to_correct": 5,
+      "abstention_transitions": 1
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "metacognition",
+      "n_pairs": 40,
+      "core_correct": 20,
+      "channel_correct": 21,
+      "label_disagreements": 14,
+      "both_judged_opposite": 3,
+      "correct_to_incorrect": 1,
+      "incorrect_to_correct": 2,
+      "abstention_transitions": 11
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "transfer",
+      "n_pairs": 40,
+      "core_correct": 6,
+      "channel_correct": 4,
+      "label_disagreements": 15,
+      "both_judged_opposite": 0,
+      "correct_to_incorrect": 0,
+      "incorrect_to_correct": 0,
+      "abstention_transitions": 15
+    }
+  ],
+  "paired_channel_transitions": [
+    {
+      "condition": "Proxima",
+      "dimension": "knowledge",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 19
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "knowledge",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "knowledge",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "knowledge",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 6
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "knowledge",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 15
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "knowledge",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "knowledge",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "knowledge",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "knowledge",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "misconception",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 21
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "misconception",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 4
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "misconception",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "misconception",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 2
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "misconception",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 12
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "misconception",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 1
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "misconception",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "misconception",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "misconception",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "metacognition",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 18
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "metacognition",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 2
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "metacognition",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 3
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "metacognition",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 2
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "metacognition",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 10
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "metacognition",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "metacognition",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 1
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "metacognition",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 3
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "metacognition",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 1
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "transfer",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 1
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "transfer",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "transfer",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 1
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "transfer",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "transfer",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "transfer",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 5
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "transfer",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 2
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "transfer",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 3
+    },
+    {
+      "condition": "Proxima",
+      "dimension": "transfer",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 28
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "knowledge",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 20
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "knowledge",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 1
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "knowledge",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 1
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "knowledge",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 2
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "knowledge",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 16
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "knowledge",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "knowledge",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "knowledge",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "knowledge",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "misconception",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 23
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "misconception",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 3
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "misconception",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "misconception",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "misconception",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 12
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "misconception",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 1
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "misconception",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "misconception",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 1
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "misconception",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "metacognition",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 10
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "metacognition",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 1
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "metacognition",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 3
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "metacognition",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "metacognition",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 8
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "metacognition",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "metacognition",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 3
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "metacognition",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 2
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "metacognition",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 13
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "transfer",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "transfer",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "transfer",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "transfer",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "transfer",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "transfer",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 3
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "transfer",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 4
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "transfer",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 3
+    },
+    {
+      "condition": "Claude Vanilla",
+      "dimension": "transfer",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 30
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "knowledge",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 22
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "knowledge",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 2
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "knowledge",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "knowledge",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 1
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "knowledge",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 15
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "knowledge",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "knowledge",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "knowledge",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "knowledge",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "misconception",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 17
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "misconception",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 3
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "misconception",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 3
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "misconception",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "misconception",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 12
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "misconception",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 1
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "misconception",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "misconception",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 3
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "misconception",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 1
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "metacognition",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 11
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "metacognition",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "metacognition",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 2
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "metacognition",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 2
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "metacognition",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 6
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "metacognition",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 1
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "metacognition",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 2
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "metacognition",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 1
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "metacognition",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 15
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "transfer",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "transfer",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "transfer",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "transfer",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "transfer",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "transfer",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "transfer",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "transfer",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 1
+    },
+    {
+      "condition": "OpenAI",
+      "dimension": "transfer",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 39
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "knowledge",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 20
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "knowledge",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 2
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "knowledge",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "knowledge",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 1
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "knowledge",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 17
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "knowledge",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "knowledge",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "knowledge",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "knowledge",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "misconception",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 22
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "misconception",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 1
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "misconception",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 1
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "misconception",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 4
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "misconception",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 12
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "misconception",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "misconception",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "misconception",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "misconception",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "metacognition",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 17
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "metacognition",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 1
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "metacognition",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 3
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "metacognition",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "metacognition",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 8
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "metacognition",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 1
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "metacognition",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 2
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "metacognition",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 3
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "metacognition",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 5
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "transfer",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 2
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "transfer",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "transfer",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 8
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "transfer",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "transfer",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 2
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "transfer",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 4
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "transfer",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 3
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "transfer",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 4
+    },
+    {
+      "condition": "Claude Mainstream",
+      "dimension": "transfer",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 17
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "knowledge",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 20
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "knowledge",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 3
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "knowledge",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "knowledge",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 3
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "knowledge",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 14
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "knowledge",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "knowledge",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "knowledge",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "knowledge",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "misconception",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 20
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "misconception",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 3
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "misconception",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 1
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "misconception",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 5
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "misconception",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 11
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "misconception",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "misconception",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "misconception",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "misconception",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 0
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "metacognition",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 17
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "metacognition",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 1
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "metacognition",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 2
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "metacognition",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 2
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "metacognition",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 6
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "metacognition",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 1
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "metacognition",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 2
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "metacognition",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 6
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "metacognition",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 3
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "transfer",
+      "core_outcome": "correct",
+      "channel_outcome": "correct",
+      "count": 2
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "transfer",
+      "core_outcome": "correct",
+      "channel_outcome": "incorrect",
+      "count": 0
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "transfer",
+      "core_outcome": "correct",
+      "channel_outcome": "IE",
+      "count": 4
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "transfer",
+      "core_outcome": "incorrect",
+      "channel_outcome": "correct",
+      "count": 0
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "transfer",
+      "core_outcome": "incorrect",
+      "channel_outcome": "incorrect",
+      "count": 7
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "transfer",
+      "core_outcome": "incorrect",
+      "channel_outcome": "IE",
+      "count": 5
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "transfer",
+      "core_outcome": "IE",
+      "channel_outcome": "correct",
+      "count": 2
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "transfer",
+      "core_outcome": "IE",
+      "channel_outcome": "incorrect",
+      "count": 4
+    },
+    {
+      "condition": "Mistral",
+      "dimension": "transfer",
+      "core_outcome": "IE",
+      "channel_outcome": "IE",
+      "count": 16
+    }
+  ],
+  "termination_metacognition_low": [
+    {
+      "condition": "Proxima",
+      "termination": "status_risolto",
+      "n": 108,
+      "correct": 11,
+      "incorrect": 76,
+      "ie": 21,
+      "recovery_pct": 10.185185185185185,
+      "coverage_pct": 80.55555555555556,
+      "conditional_agreement_pct": 12.64367816091954
+    },
+    {
+      "condition": "Proxima",
+      "termination": "max_learner_turns_reached",
+      "n": 2,
+      "correct": 0,
+      "incorrect": 2,
+      "ie": 0,
+      "recovery_pct": 0.0,
+      "coverage_pct": 100.0,
+      "conditional_agreement_pct": 0.0
+    },
+    {
+      "condition": "Claude Vanilla",
+      "termination": "status_risolto",
+      "n": 107,
+      "correct": 9,
+      "incorrect": 52,
+      "ie": 46,
+      "recovery_pct": 8.411214953271028,
+      "coverage_pct": 57.00934579439252,
+      "conditional_agreement_pct": 14.754098360655737
+    },
+    {
+      "condition": "Claude Vanilla",
+      "termination": "max_learner_turns_reached",
+      "n": 3,
+      "correct": 0,
+      "incorrect": 2,
+      "ie": 1,
+      "recovery_pct": 0.0,
+      "coverage_pct": 66.66666666666667,
+      "conditional_agreement_pct": 0.0
+    },
+    {
+      "condition": "OpenAI",
+      "termination": "status_risolto",
+      "n": 110,
+      "correct": 6,
+      "incorrect": 41,
+      "ie": 63,
+      "recovery_pct": 5.454545454545454,
+      "coverage_pct": 42.72727272727273,
+      "conditional_agreement_pct": 12.76595744680851
+    },
+    {
+      "condition": "OpenAI",
+      "termination": "max_learner_turns_reached",
+      "n": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "ie": 0,
+      "recovery_pct": null,
+      "coverage_pct": null,
+      "conditional_agreement_pct": null
+    },
+    {
+      "condition": "Claude Mainstream",
+      "termination": "status_risolto",
+      "n": 86,
+      "correct": 10,
+      "incorrect": 47,
+      "ie": 29,
+      "recovery_pct": 11.627906976744185,
+      "coverage_pct": 66.27906976744185,
+      "conditional_agreement_pct": 17.54385964912281
+    },
+    {
+      "condition": "Claude Mainstream",
+      "termination": "max_learner_turns_reached",
+      "n": 24,
+      "correct": 1,
+      "incorrect": 22,
+      "ie": 1,
+      "recovery_pct": 4.166666666666667,
+      "coverage_pct": 95.83333333333333,
+      "conditional_agreement_pct": 4.3478260869565215
+    },
+    {
+      "condition": "Mistral",
+      "termination": "status_risolto",
+      "n": 75,
+      "correct": 9,
+      "incorrect": 40,
+      "ie": 26,
+      "recovery_pct": 12.0,
+      "coverage_pct": 65.33333333333333,
+      "conditional_agreement_pct": 18.367346938775512
+    },
+    {
+      "condition": "Mistral",
+      "termination": "max_learner_turns_reached",
+      "n": 35,
+      "correct": 1,
+      "incorrect": 32,
+      "ie": 2,
+      "recovery_pct": 2.857142857142857,
+      "coverage_pct": 94.28571428571429,
+      "conditional_agreement_pct": 3.0303030303030303
+    }
+  ],
+  "cell_weighting_intervals": [
+    {
+      "condition": "Proxima",
+      "quantity": "accuracy_m_low_pct",
+      "lower_025": 47.62504521870924,
+      "upper_975": 67.30392927428309,
+      "replicates": 10000,
+      "seed": 20260927
+    },
+    {
+      "condition": "Proxima",
+      "quantity": "accuracy_m_high_pct",
+      "lower_025": 50.04321855552383,
+      "upper_975": 53.55879410817865,
+      "replicates": 10000,
+      "seed": 20260927
+    },
+    {
+      "condition": "Proxima",
+      "quantity": "difference_high_minus_low_pp",
+      "lower_025": -16.315354439707953,
+      "upper_975": 3.716276814990251,
+      "replicates": 10000,
+      "seed": 20260927
+    },
+    {
+      "condition": "Claude Vanilla",
+      "quantity": "accuracy_m_low_pct",
+      "lower_025": 49.56695792728623,
+      "upper_975": 67.12907824289769,
+      "replicates": 10000,
+      "seed": 20260927
+    },
+    {
+      "condition": "Claude Vanilla",
+      "quantity": "accuracy_m_high_pct",
+      "lower_025": 50.459386123375054,
+      "upper_975": 54.54129397992015,
+      "replicates": 10000,
+      "seed": 20260927
+    },
+    {
+      "condition": "Claude Vanilla",
+      "quantity": "difference_high_minus_low_pp",
+      "lower_025": -15.03584141108581,
+      "upper_975": 3.171351919033227,
+      "replicates": 10000,
+      "seed": 20260927
+    },
+    {
+      "condition": "OpenAI",
+      "quantity": "accuracy_m_low_pct",
+      "lower_025": 55.55205332813166,
+      "upper_975": 79.53619521021672,
+      "replicates": 10000,
+      "seed": 20260927
+    },
+    {
+      "condition": "OpenAI",
+      "quantity": "accuracy_m_high_pct",
+      "lower_025": 42.03816010920497,
+      "upper_975": 57.96747426257357,
+      "replicates": 10000,
+      "seed": 20260927
+    },
+    {
+      "condition": "OpenAI",
+      "quantity": "difference_high_minus_low_pp",
+      "lower_025": -32.4339264209593,
+      "upper_975": -3.2102556595835297,
+      "replicates": 10000,
+      "seed": 20260927
+    },
+    {
+      "condition": "Claude Mainstream",
+      "quantity": "accuracy_m_low_pct",
+      "lower_025": 47.18824001149735,
+      "upper_975": 67.12377299760568,
+      "replicates": 10000,
+      "seed": 20260927
+    },
+    {
+      "condition": "Claude Mainstream",
+      "quantity": "accuracy_m_high_pct",
+      "lower_025": 50.0,
+      "upper_975": 50.0,
+      "replicates": 10000,
+      "seed": 20260927
+    },
+    {
+      "condition": "Claude Mainstream",
+      "quantity": "difference_high_minus_low_pp",
+      "lower_025": -17.12377299760568,
+      "upper_975": 2.8117599885026494,
+      "replicates": 10000,
+      "seed": 20260927
+    },
+    {
+      "condition": "Mistral",
+      "quantity": "accuracy_m_low_pct",
+      "lower_025": 50.68048895174439,
+      "upper_975": 76.20261444188036,
+      "replicates": 10000,
+      "seed": 20260927
+    },
+    {
+      "condition": "Mistral",
+      "quantity": "accuracy_m_high_pct",
+      "lower_025": 50.0,
+      "upper_975": 50.0,
+      "replicates": 10000,
+      "seed": 20260927
+    },
+    {
+      "condition": "Mistral",
+      "quantity": "difference_high_minus_low_pp",
+      "lower_025": -26.20261444188036,
+      "upper_975": -0.6804889517443894,
+      "replicates": 10000,
+      "seed": 20260927
+    }
+  ]
+}

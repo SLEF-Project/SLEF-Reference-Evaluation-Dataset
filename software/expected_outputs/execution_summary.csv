@@ -1,0 +1,6 @@
+condition,sessions,learner_turns,turn_capped
+Proxima,220,1210,7
+Claude Vanilla,220,793,13
+OpenAI,220,446,3
+Claude Mainstream,220,1508,53
+Mistral,220,1687,83

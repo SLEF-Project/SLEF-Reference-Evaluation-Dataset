@@ -1,0 +1,2 @@
+# Keep the extractor prompt byte-identical: no line-ending or encoding conversion.
+DAS_EXTRACTOR_PROMPT_v1_0_7.txt -text

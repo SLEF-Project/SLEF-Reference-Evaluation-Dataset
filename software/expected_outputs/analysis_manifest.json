@@ -1,0 +1,25 @@
+{
+  "analysis_version": "1.0.0",
+  "analysis_date": "2026-09-27",
+  "analysis_status": "post_hoc_exploratory",
+  "dataset_git_commit": "a4a1424907f984679298249c4dc44db90ed74bc0",
+  "dataset_doi_as_declared": "10.5281/zenodo.22930176",
+  "dataset_checksum_entries_verified": 2110,
+  "sessions": 1100,
+  "learner_turns": 5644,
+  "conditions": [
+    "Proxima",
+    "Claude Vanilla",
+    "OpenAI",
+    "Claude Mainstream",
+    "Mistral"
+  ],
+  "seed": 20260927,
+  "weighting_replicates": 10000,
+  "python": "3.12.3",
+  "numpy": "2.4.4",
+  "script_sha256": "7e0b3e48278825ed9fb4045ce349fadbd8c6664e891dfbad802577eb9af9c882",
+  "no_new_model_calls": true,
+  "no_relabeling": true,
+  "no_source_modifications": true
+}

@@ -1,0 +1,6 @@
+# Version: 1.0.0
+# Date: 2026-09-30
+# Changelog: 1.0.0 - preserve native bytes and suppress whitespace diagnostics for frozen generated CSV/SVG outputs.
+
+expected_outputs/*.csv -text -whitespace
+expected_outputs/*.svg -text -whitespace

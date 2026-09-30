@@ -1,0 +1,11 @@
+condition,termination,n,correct,incorrect,ie,recovery_pct,coverage_pct,conditional_agreement_pct
+Proxima,status_risolto,108,11,76,21,10.185185185185185,80.55555555555556,12.64367816091954
+Proxima,max_learner_turns_reached,2,0,2,0,0.0,100.0,0.0
+Claude Vanilla,status_risolto,107,9,52,46,8.411214953271028,57.00934579439252,14.754098360655737
+Claude Vanilla,max_learner_turns_reached,3,0,2,1,0.0,66.66666666666667,0.0
+OpenAI,status_risolto,110,6,41,63,5.454545454545454,42.72727272727273,12.76595744680851
+OpenAI,max_learner_turns_reached,0,0,0,0,,,
+Claude Mainstream,status_risolto,86,10,47,29,11.627906976744185,66.27906976744185,17.54385964912281
+Claude Mainstream,max_learner_turns_reached,24,1,22,1,4.166666666666667,95.83333333333333,4.3478260869565215
+Mistral,status_risolto,75,9,40,26,12.0,65.33333333333333,18.367346938775512
+Mistral,max_learner_turns_reached,35,1,32,2,2.857142857142857,94.28571428571429,3.0303030303030303

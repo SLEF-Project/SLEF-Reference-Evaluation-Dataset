@@ -1,8 +1,14 @@
-# SLEF Reference Evaluation Dataset v1.0.0
+# SLEF Reference Evaluation Dataset v1.1.0
+
+Version: 1.1.0
+Date: 2026-09-30
+Changelog: v1.1.0 adds the released DAS extractor prompt, reproducibility software, expected analysis outputs, and release metadata. The scientific corpus and scientific values are unchanged from v1.0.0.
 
 Reference evaluation dataset for **SLEF (Synthetic Learner Evaluation Framework)** — a controlled-Ground-Truth framework for evaluating learner-state inference under synthetic learner conditions.
 
 This release contains the scientific evidence produced by the SLEF Reference Evaluation across five tutor conditions: the synthetic-learner dialogue corpora, assigned hidden Ground Truth, generator-native behavioral characterization, and transcript-level learner-state recoverability analysis.
+
+Version 1.1.0 is an additive reproducibility release. It preserves the v1.0.0 scientific corpus and scientific values unchanged while adding the exact DAS extractor prompt used in the reference experiment, offline reproducibility software, frozen expected analysis outputs, and corresponding release metadata.
 
 ## What this is — and is not
 
@@ -43,12 +49,13 @@ All learners in this release are synthetic and non-human.
 | Original language | Italian, not translated |
 | Analysis tracks included | Track A1 and Track B / DAS |
 | Ground-Truth dimensions | Knowledge, Misconception, Metacognition, Transfer |
+| Reproducibility materials | Exact DAS extractor prompt, offline analysis code, tests, and frozen expected outputs |
 
 ## Relationship to the paper
 
 This dataset accompanies and is cited by:
 
-> Accompanying paper: SLEF: Synthetic Learners Reveal a Shared Diagnostic Blind Spot Across AI Tutoring Systems — forthcoming preprint.  
+> Accompanying paper: Can Assigned Learner States Be Recovered from Synthetic Tutoring Dialogues? A Factorial Study with SLEF — forthcoming preprint.
 > Marco Iannacone, 2026  
 > Persistent identifier: not yet assigned.
 
@@ -59,7 +66,8 @@ This repository is the corresponding scientific data release: it contains the re
 ## Resources
 
 L×M×C preprint: https://doi.org/10.35542/osf.io/hvx37_v2  
-This dataset's own archival record: https://doi.org/10.5281/zenodo.22930176
+This release (v1.1.0): https://doi.org/10.5281/zenodo.23068043
+All versions of this dataset: https://doi.org/10.5281/zenodo.22930175
 
 ## Historical `PILOT0` naming
 
@@ -67,7 +75,7 @@ Some internal execution identifiers preserved in this dataset retain the histori
 
 `SLEF_PILOT0_REFERENCE_RUN_3`
 
-The public dataset release is versioned independently as **SLEF Reference Evaluation Dataset v1.0.0**.
+The public dataset release is versioned independently as **SLEF Reference Evaluation Dataset v1.1.0**.
 
 Historical `PILOT0` identifiers are retained only for provenance continuity and auditability back to the original scientific executions.
 
@@ -105,6 +113,15 @@ Provider/model identity information is recorded in the corresponding condition_m
 ├── DATA_DICTIONARY.md
 ├── CITATION.cff
 ├── LICENSE
+├── instrument/
+│   ├── README.md
+│   └── DAS_EXTRACTOR_PROMPT_v1_0_7.txt
+├── software/
+│   ├── README.md
+│   ├── slef_reference_analysis.py
+│   ├── test_slef_reference_analysis.py
+│   ├── requirements.txt
+│   └── expected_outputs/
 ├── schemas/
 └── conditions/
     ├── <condition_name>/
@@ -180,13 +197,27 @@ The released material documents the semantic DAS instrument specification, inclu
 - instrument and specification identities;
 - prompt SHA-256.
 
-The literal extractor prompt is not included in this release while the comparison family using this instrument, or a substantial derivative of it, remains active.
+The exact literal extractor prompt used for the released DAS results is included in this release as:
 
-This reduces the risk that future tutor conditions could be deliberately tuned to the literal wording of the measurement instrument rather than evaluated against it.
+`instrument/DAS_EXTRACTOR_PROMPT_v1_0_7.txt`
 
-The published prompt SHA-256 preserves the cryptographic identity of the exact prompt used for the released results.
+The file is released unchanged. Its SHA-256 is:
 
-The literal prompt may be released after the corresponding comparison family has been retired.
+`2553a90d99053da2ffbbc91893935b54b1ca0b06e397b0e2ea98583e301cc6e9`
+
+This is the same `prompt_sha256` recorded in the DAS scientific-run manifest for every released condition.
+
+## Reproducibility software
+
+The `software/` directory provides an offline reproduction path for the analyses accompanying the reference experiment.
+
+- `slef_reference_analysis.py` recomputes the released analysis tables and figures directly from the public dataset.
+- `test_slef_reference_analysis.py` provides six consistency tests over the generated outputs.
+- `expected_outputs/` contains the frozen expected analysis outputs.
+- `requirements.txt` records the tested Python dependencies.
+- `software/SHA256SUMS.txt` provides integrity hashes for the reproducibility package.
+
+The analysis software performs no model calls and does not relabel or modify the released scientific source data. Usage and output mapping are documented in `software/README.md`.
 
 ## Language and domain
 
@@ -214,9 +245,11 @@ Source provenance, including acquisition identities, relevant Git commits, speci
 
 ## License
 
-The dataset content is released under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+The dataset content and released DAS instrument are released under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
-See LICENSE for the dataset license summary and a link to the official CC BY 4.0 legal code.
+See `LICENSE` for the dataset license summary and a link to the official CC BY 4.0 legal code.
+
+The analysis source code under `software/` is released separately under the **Apache License, Version 2.0**. See `software/LICENSE` and `software/NOTICE`.
 
 ## Naming and Attribution
 
@@ -244,7 +277,9 @@ Publication-specific metadata such as the final repository URL, release date, an
 
 ### Release stability
 
-This release (v1.0.0) is versioned and immutable: its scientific content will not be modified retroactively. Any future addition or correction affecting released scientific content will be published as a new, separately versioned release.
+Version 1.1.0 is an additive reproducibility release built on the immutable v1.0.0 scientific release. The released dialogue corpus, assigned Ground Truth, Track A1 artifacts, DAS scientific artifacts, DAS scores, and scientific values are unchanged from v1.0.0.
+
+Version 1.1.0 adds the exact DAS extractor prompt, offline reproducibility software, frozen expected analysis outputs, and updated release metadata. Any future addition or correction affecting released scientific content will be published as a new, separately versioned release.
 
 ## Key limitations
 
